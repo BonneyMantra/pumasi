@@ -1,0 +1,40 @@
+{
+  "images": {
+    "alice": "ipfs://bafkreibw7hurr2astk72byrachibomhyfj5pndm62u7uqnnvqbgrrxhohi",
+    "bob": "ipfs://bafkreigpfr7g3f755ihtsig3d63cyglv5xeu26jizdroowsw6itcgz4vwa",
+    "carol": "ipfs://bafkreifnqolwo2mfznnrpxqmqe7iep4agb3guvz72zvfalkym6kzlid6fe",
+    "dave": "ipfs://bafkreibhg7g2qppz2zistodr2rf7lhr3ltu6pjuuelmbgm5jzm2jq4yanu",
+    "eve": "ipfs://bafkreif4dhasl2wdv3hxstorkbdbfqycvtilw7prky6b64sek4iimlc6lm",
+    "webdev": "ipfs://bafkreiasx2wxly46culvcwm6i2f7ja6hs3iymousiktrbtxlnwp56wvwzy",
+    "smartcontract": "ipfs://bafkreibmtbee5t7pgjezqoxjxgw7yv455hkcs3l6c5r32nird7wnqbupbq",
+    "uidesign": "ipfs://bafkreibc6vde6maoj63wv47rsyi3eg5kyzpc5hflqho5htvgkg4k6eraca",
+    "logo": "ipfs://bafkreickpll3arzlgzwd6zzh6wplmqgsfuvufz3psuxb3hcpc4wy3tpi7i"
+  },
+  "profiles": {
+    "alice": "ipfs://bafkreigef4me65xqglhiyv6rzd5zt3buvxkyggazptqppsndwf4pdnpe2y",
+    "bob": "ipfs://bafkreihzy22yms45hx7sqansxa7foyctxua3zeiswygvkvpfrscdgw6oz4",
+    "carol": "ipfs://bafkreie3zbuqoulc3o3dju4mrydipzgelk6dkurto4g2zgofynwxjhvs6q",
+    "dave": "ipfs://bafkreig5ccqhworerig2iwcx4hyh2jglqakpwo5u7lb6xmmans4uqk6mau",
+    "eve": "ipfs://bafkreih3kgsghm5ibbnbfn4xx3pbadxmq43v2y4y4xok5zpotufaebovsa"
+  },
+  "jobs": {
+    "job0": "ipfs://bafkreiapvcj35kozozrglwiz2n3b2pqwsal4hyndmszl2e7s3kkjmidmye",
+    "job1": "ipfs://bafkreibpdn44cx7dbraqk5j776nvvu4erhafmpli4sgpelbefvee4v24le",
+    "job2": "ipfs://bafkreiabnmmmtpigw62sdcgxnyb4mpddeufdletqoi4gsh4sifiu66prnu",
+    "job3": "ipfs://bafkreihucdwmddv6hgndg4rjjcblknfszb6bt3orqmcayoqoulelveji7u"
+  },
+  "proposals": {
+    "carolProp0": "ipfs://bafkreibvsphtmo4o4prhlxl5mgahoihf56ls7uy5y3dmsq5vgvf4okaviu",
+    "daveProp0": "ipfs://bafkreifzz7c6qsy3yufnxiqw5eptbahyphml6fbd5gd5czyllljznmubde",
+    "carolProp1": "ipfs://bafkreieitnttvnn7kesjtptc3e5nhzpogiryk7nzegufo67n2ocan6ogru",
+    "daveProp2": "ipfs://bafkreigzs2ks7dymeyne75eqmjkqzhiyznm3wvbw5iakpnfmh6viarbodu",
+    "carolProp3": "ipfs://bafkreiadk5uugev7yx74xztua4hdptdvl4qgo2x3mfv2kugp44z7kmolqm"
+  },
+  "deliverables": {
+    "deliverable3": "ipfs://bafkreicykjhwl5f4y5uh55gvvnhgp3flocdtlmbnge3uiougx463r55cay"
+  },
+  "reviews": {
+    "reviewEveCarol": "ipfs://bafkreie2wszfewbri5lbm2zhpmogquirfqg2h6intc32pu4mjwb4zucsxu",
+    "reviewCarolEve": "ipfs://bafkreihns7hxjyeume5otytuhgvcag5eqlnr2cmeyjyoqyugvvejmqghoy"
+  }
+}

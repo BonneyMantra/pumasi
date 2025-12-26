@@ -1,0 +1,124 @@
+{
+  "project": "Pumasi",
+  "version": "1.0.0",
+
+  "contracts": {
+    "ProfileRegistry": {
+      "source": "src/ProfileRegistry.sol:ProfileRegistry",
+      "type": "Registry",
+      "description": "Manages user profile metadata stored on IPFS"
+    },
+    "JobFactory": {
+      "source": "src/JobFactory.sol:JobFactory",
+      "type": "Escrow",
+      "description": "Factory for creating job escrows with platform fee collection"
+    },
+    "ApplicationRegistry": {
+      "source": "src/ApplicationRegistry.sol:ApplicationRegistry",
+      "type": "Registry",
+      "description": "Manages job applications from freelancers"
+    },
+    "MilestoneManager": {
+      "source": "src/MilestoneManager.sol:MilestoneManager",
+      "type": "Manager",
+      "description": "Manages milestone-based payments for jobs"
+    },
+    "ReviewRegistry": {
+      "source": "src/ReviewRegistry.sol:ReviewRegistry",
+      "type": "Registry",
+      "description": "Manages reviews between clients and freelancers"
+    },
+    "ArbitrationDAO": {
+      "source": "src/ArbitrationDAO.sol:ArbitrationDAO",
+      "type": "DAO",
+      "description": "Manages dispute resolution with staked arbitrators"
+    }
+  },
+
+  "chains": {
+    "verychain": {
+      "chainId": 74,
+      "name": "VeryChain Mainnet",
+      "rpcUrl": "https://rpc.verylabs.io",
+      "explorer": {
+        "name": "VeryChain Explorer",
+        "url": "https://scan.verychain.io",
+        "apiUrl": "https://scan.verychain.io/api"
+      },
+      "nativeCurrency": {
+        "name": "VERY",
+        "symbol": "VERY",
+        "decimals": 18
+      },
+      "subgraph": {
+        "localNode": "http://localhost:8020/"
+      }
+    }
+  },
+
+  "steps": [
+    {
+      "id": 1,
+      "type": "deploy",
+      "chain": "verychain",
+      "contract": "ProfileRegistry",
+      "constructorArgs": [],
+      "verify": true
+    },
+    {
+      "id": 2,
+      "type": "deploy",
+      "chain": "verychain",
+      "contract": "JobFactory",
+      "constructorArgs": ["deployer"],
+      "verify": true
+    },
+    {
+      "id": 3,
+      "type": "deploy",
+      "chain": "verychain",
+      "contract": "ApplicationRegistry",
+      "constructorArgs": ["JobFactory"],
+      "verify": true
+    },
+    {
+      "id": 4,
+      "type": "deploy",
+      "chain": "verychain",
+      "contract": "MilestoneManager",
+      "constructorArgs": ["JobFactory", "deployer"],
+      "verify": true
+    },
+    {
+      "id": 5,
+      "type": "deploy",
+      "chain": "verychain",
+      "contract": "ReviewRegistry",
+      "constructorArgs": ["JobFactory"],
+      "verify": true
+    },
+    {
+      "id": 6,
+      "type": "deploy",
+      "chain": "verychain",
+      "contract": "ArbitrationDAO",
+      "constructorArgs": ["JobFactory", "deployer"],
+      "verify": true
+    }
+  ],
+
+  "deployments": {
+    "verychain": {}
+  },
+
+  "sync": {
+    "frontend": {
+      "configPath": "../frontend/lib/contracts",
+      "abiSource": "out"
+    },
+    "subgraphs": {
+      "networksPath": "../subgraph/networks.json",
+      "abiPath": "../subgraph/abis"
+    }
+  }
+}
