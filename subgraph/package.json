@@ -1,0 +1,23 @@
+{
+  "name": "subgraph",
+  "version": "1.0.0",
+  "description": "Subgraph for indexing smart contract events",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "test": "graph test",
+    "prepare": "mustache config/verychain.json subgraph.template.yaml > subgraph.yaml",
+    "prepare:verychain": "mustache config/verychain.json subgraph.template.yaml > subgraph.yaml",
+    "create:local": "graph create --node http://localhost:8020/ pumasi",
+    "deploy:local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 pumasi",
+    "export": "node scripts/export-frontend-config.js"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "^0.79.0",
+    "@graphprotocol/graph-ts": "^0.35.1"
+  },
+  "devDependencies": {
+    "matchstick-as": "^0.6.0",
+    "mustache": "^4.2.0"
+  }
+}
