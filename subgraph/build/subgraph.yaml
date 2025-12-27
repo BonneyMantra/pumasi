@@ -1,0 +1,173 @@
+specVersion: 1.0.0
+indexerHints:
+  prune: auto
+schema:
+  file: schema.graphql
+dataSources:
+  - kind: ethereum
+    name: JobEscrow
+    network: verychain
+    source:
+      address: "0x4aafcb744e5a9923640838c4788455b2cc1ebd48"
+      abi: JobEscrow
+      startBlock: 4151694
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Job
+        - User
+      abis:
+        - name: JobEscrow
+          file: JobEscrow/JobEscrow.json
+      eventHandlers:
+        - event: JobCreated(indexed uint256,indexed address,uint256,uint256,string)
+          handler: handleJobCreated
+        - event: FreelancerAssigned(indexed uint256,indexed address,uint256)
+          handler: handleFreelancerAssigned
+        - event: DeliverableSubmitted(indexed uint256,indexed address,string,uint256)
+          handler: handleDeliverableSubmitted
+        - event: JobApproved(indexed uint256,indexed address,indexed address,uint256)
+          handler: handleJobApproved
+        - event: JobCancelled(indexed uint256,indexed address,uint256)
+          handler: handleJobCancelled
+        - event: JobDisputed(indexed uint256,indexed address,uint256)
+          handler: handleJobDisputed
+        - event: FundsReleased(indexed uint256,indexed address,uint256,uint256)
+          handler: handleFundsReleased
+      file: JobEscrow/JobEscrow.wasm
+  - kind: ethereum
+    name: ApplicationRegistry
+    network: verychain
+    source:
+      address: "0x625ab5ca543cde5dea9f9f53137162b30ce39af5"
+      abi: ApplicationRegistry
+      startBlock: 4151694
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Application
+        - Job
+        - User
+      abis:
+        - name: ApplicationRegistry
+          file: ApplicationRegistry/ApplicationRegistry.json
+      eventHandlers:
+        - event: ApplicationSubmitted(indexed uint256,indexed uint256,indexed
+            address,string,uint256)
+          handler: handleApplicationSubmitted
+        - event: ApplicationAccepted(indexed uint256,indexed uint256,indexed address,uint256)
+          handler: handleApplicationAccepted
+        - event: ApplicationRejected(indexed uint256,indexed uint256,indexed address,uint256)
+          handler: handleApplicationRejected
+      file: ApplicationRegistry/ApplicationRegistry.wasm
+  - kind: ethereum
+    name: MilestoneManager
+    network: verychain
+    source:
+      address: "0xb7f3d139128d54e6f994bcf0de88d5da8d1c71d2"
+      abi: MilestoneManager
+      startBlock: 4151694
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Milestone
+        - Job
+      abis:
+        - name: MilestoneManager
+          file: MilestoneManager/MilestoneManager.json
+      eventHandlers:
+        - event: MilestoneCreated(indexed uint256,indexed uint256,uint256,uint256,string)
+          handler: handleMilestoneCreated
+        - event: MilestoneStarted(indexed uint256,indexed uint256,uint256)
+          handler: handleMilestoneStarted
+        - event: MilestoneDelivered(indexed uint256,indexed uint256,string,uint256)
+          handler: handleMilestoneDelivered
+        - event: MilestoneApproved(indexed uint256,indexed uint256,uint256,uint256)
+          handler: handleMilestoneApproved
+        - event: MilestoneDisputed(indexed uint256,indexed uint256,indexed address,uint256)
+          handler: handleMilestoneDisputed
+      file: MilestoneManager/MilestoneManager.wasm
+  - kind: ethereum
+    name: ReviewRegistry
+    network: verychain
+    source:
+      address: "0x2927b1f7c76aa9302621fc3dee30b024ab11d677"
+      abi: ReviewRegistry
+      startBlock: 4151694
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Review
+        - Job
+        - User
+      abis:
+        - name: ReviewRegistry
+          file: ReviewRegistry/ReviewRegistry.json
+      eventHandlers:
+        - event: ReviewSubmitted(indexed uint256,indexed uint256,indexed
+            address,address,uint8,string)
+          handler: handleReviewSubmitted
+      file: ReviewRegistry/ReviewRegistry.wasm
+  - kind: ethereum
+    name: ArbitrationDAO
+    network: verychain
+    source:
+      address: "0xa846e4d57cdb3077ed67e5d792949f7a6ef2a75d"
+      abi: ArbitrationDAO
+      startBlock: 4151694
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Dispute
+        - Vote
+        - Job
+        - User
+      abis:
+        - name: ArbitrationDAO
+          file: ArbitrationDAO/ArbitrationDAO.json
+      eventHandlers:
+        - event: ArbitratorRegistered(indexed address,uint256)
+          handler: handleArbitratorRegistered
+        - event: ArbitratorWithdrawn(indexed address,uint256)
+          handler: handleArbitratorUnregistered
+        - event: DisputeRaised(indexed uint256,indexed uint256,indexed address,uint256)
+          handler: handleDisputeRaised
+        - event: EvidenceSubmitted(indexed uint256,indexed address,string)
+          handler: handleEvidenceSubmitted
+        - event: VoteCast(indexed uint256,indexed address,uint8)
+          handler: handleVoteCast
+        - event: DisputeResolved(indexed uint256,uint8,uint256,uint256)
+          handler: handleDisputeResolved
+      file: ArbitrationDAO/ArbitrationDAO.wasm
+  - kind: ethereum
+    name: ProfileRegistry
+    network: verychain
+    source:
+      address: "0x0c3ff18373d7683b34df2ef956f0e2205d232cc2"
+      abi: ProfileRegistry
+      startBlock: 4151694
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - User
+      abis:
+        - name: ProfileRegistry
+          file: ProfileRegistry/ProfileRegistry.json
+      eventHandlers:
+        - event: ProfileCreated(indexed address,string,uint256)
+          handler: handleProfileCreated
+        - event: ProfileUpdated(indexed address,string,uint256)
+          handler: handleProfileUpdated
+      file: ProfileRegistry/ProfileRegistry.wasm
