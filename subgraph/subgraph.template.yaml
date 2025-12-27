@@ -1,0 +1,176 @@
+specVersion: 1.0.0
+indexerHints:
+  prune: auto
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: JobEscrow
+    network: {{network}}
+    source:
+      address: "{{jobEscrow.address}}"
+      abi: JobEscrow
+      startBlock: {{jobEscrow.startBlock}}
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Job
+        - User
+      abis:
+        - name: JobEscrow
+          file: ./abis/JobEscrow.json
+      eventHandlers:
+        - event: JobCreated(indexed uint256,indexed address,uint256,uint256,string)
+          handler: handleJobCreated
+        - event: FreelancerAssigned(indexed uint256,indexed address,uint256)
+          handler: handleFreelancerAssigned
+        - event: DeliverableSubmitted(indexed uint256,indexed address,string,uint256)
+          handler: handleDeliverableSubmitted
+        - event: JobApproved(indexed uint256,indexed address,indexed address,uint256)
+          handler: handleJobApproved
+        - event: JobCancelled(indexed uint256,indexed address,uint256)
+          handler: handleJobCancelled
+        - event: JobDisputed(indexed uint256,indexed address,uint256)
+          handler: handleJobDisputed
+        - event: FundsReleased(indexed uint256,indexed address,uint256,uint256)
+          handler: handleFundsReleased
+      file: ./src/mappings/job-escrow.ts
+
+  - kind: ethereum
+    name: ApplicationRegistry
+    network: {{network}}
+    source:
+      address: "{{applicationRegistry.address}}"
+      abi: ApplicationRegistry
+      startBlock: {{applicationRegistry.startBlock}}
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Application
+        - Job
+        - User
+      abis:
+        - name: ApplicationRegistry
+          file: ./abis/ApplicationRegistry.json
+      eventHandlers:
+        - event: ApplicationSubmitted(indexed uint256,indexed uint256,indexed address,string,uint256)
+          handler: handleApplicationSubmitted
+        - event: ApplicationAccepted(indexed uint256,indexed uint256,indexed address,uint256)
+          handler: handleApplicationAccepted
+        - event: ApplicationRejected(indexed uint256,indexed uint256,indexed address,uint256)
+          handler: handleApplicationRejected
+      file: ./src/mappings/application-registry.ts
+
+  - kind: ethereum
+    name: MilestoneManager
+    network: {{network}}
+    source:
+      address: "{{milestoneManager.address}}"
+      abi: MilestoneManager
+      startBlock: {{milestoneManager.startBlock}}
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Milestone
+        - Job
+      abis:
+        - name: MilestoneManager
+          file: ./abis/MilestoneManager.json
+      eventHandlers:
+        - event: MilestoneCreated(indexed uint256,indexed uint256,uint256,uint256,string)
+          handler: handleMilestoneCreated
+        - event: MilestoneStarted(indexed uint256,indexed uint256,uint256)
+          handler: handleMilestoneStarted
+        - event: MilestoneDelivered(indexed uint256,indexed uint256,string,uint256)
+          handler: handleMilestoneDelivered
+        - event: MilestoneApproved(indexed uint256,indexed uint256,uint256,uint256)
+          handler: handleMilestoneApproved
+        - event: MilestoneDisputed(indexed uint256,indexed uint256,indexed address,uint256)
+          handler: handleMilestoneDisputed
+      file: ./src/mappings/milestone-manager.ts
+
+  - kind: ethereum
+    name: ReviewRegistry
+    network: {{network}}
+    source:
+      address: "{{reviewRegistry.address}}"
+      abi: ReviewRegistry
+      startBlock: {{reviewRegistry.startBlock}}
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Review
+        - Job
+        - User
+      abis:
+        - name: ReviewRegistry
+          file: ./abis/ReviewRegistry.json
+      eventHandlers:
+        - event: ReviewSubmitted(indexed uint256,indexed uint256,indexed address,address,uint8,string)
+          handler: handleReviewSubmitted
+      file: ./src/mappings/review-registry.ts
+
+  - kind: ethereum
+    name: ArbitrationDAO
+    network: {{network}}
+    source:
+      address: "{{arbitrationDAO.address}}"
+      abi: ArbitrationDAO
+      startBlock: {{arbitrationDAO.startBlock}}
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Dispute
+        - Vote
+        - Job
+        - User
+      abis:
+        - name: ArbitrationDAO
+          file: ./abis/ArbitrationDAO.json
+      eventHandlers:
+        - event: ArbitratorRegistered(indexed address,uint256)
+          handler: handleArbitratorRegistered
+        - event: ArbitratorWithdrawn(indexed address,uint256)
+          handler: handleArbitratorUnregistered
+        - event: DisputeRaised(indexed uint256,indexed uint256,indexed address,uint256)
+          handler: handleDisputeRaised
+        - event: EvidenceSubmitted(indexed uint256,indexed address,string)
+          handler: handleEvidenceSubmitted
+        - event: VoteCast(indexed uint256,indexed address,uint8)
+          handler: handleVoteCast
+        - event: DisputeResolved(indexed uint256,uint8,uint256,uint256)
+          handler: handleDisputeResolved
+      file: ./src/mappings/arbitration-dao.ts
+
+  - kind: ethereum
+    name: ProfileRegistry
+    network: {{network}}
+    source:
+      address: "{{profileRegistry.address}}"
+      abi: ProfileRegistry
+      startBlock: {{profileRegistry.startBlock}}
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - User
+      abis:
+        - name: ProfileRegistry
+          file: ./abis/ProfileRegistry.json
+      eventHandlers:
+        - event: ProfileCreated(indexed address,string,uint256)
+          handler: handleProfileCreated
+        - event: ProfileUpdated(indexed address,string,uint256)
+          handler: handleProfileUpdated
+      file: ./src/mappings/profile-registry.ts
