@@ -1,0 +1,1344 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "close": "Close",
+    "appName": "Pumasi",
+    "next": "Next",
+    "back": "Back",
+    "previous": "Previous",
+    "error": "An error occurred while loading data.",
+    "submit": "Submit",
+    "reset": "Reset",
+    "processing": "Processing...",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "viewTx": "View Transaction",
+    "expired": "Expired",
+    "timeRemaining": "{time} remaining",
+    "active": "active",
+    "memberSince": "Member since {date}",
+    "chains": "chains",
+    "refresh": "Refresh",
+    "optional": "optional"
+  },
+  "jobList": {
+    "gridView": "Grid view",
+    "listView": "List view",
+    "empty": {
+      "title": "No jobs found",
+      "message": "There are no jobs matching your criteria. Try adjusting your filters or check back later."
+    }
+  },
+  "jobCard": {
+    "applicants": "{count} applicants"
+  },
+  "wallet": {
+    "connect": "Connect Wallet",
+    "connecting": "Connecting...",
+    "connectRequired": "Please connect your wallet to view this page.",
+    "disconnect": "Disconnect",
+    "disconnecting": "Disconnecting...",
+    "initializing": "Initializing...",
+    "copyAddress": "Copy Address",
+    "copied": "Copied!",
+    "viewOnExplorer": "View on Explorer",
+    "switchNetwork": "Switch Network",
+    "selectNetwork": "Select the network to switch to",
+    "minting": "Minting...",
+    "switching": "Switching...",
+    "noNetworks": "No networks configured"
+  },
+  "nav": {
+    "jobs": "Jobs",
+    "applications": "Applications",
+    "disputes": "Disputes",
+    "profile": "Profile"
+  },
+  "navbar": {
+    "settings": "Settings",
+    "appConfiguration": "App Configuration",
+    "status": "Status",
+    "configured": "Configured",
+    "incomplete": "Incomplete",
+    "mode": "Mode",
+    "defaults": "Defaults",
+    "custom": "Custom",
+    "networks": "Networks",
+    "missingConfig": "Missing Configuration:",
+    "andMore": "...and {count} more",
+    "openSettings": "Open Settings"
+  },
+  "hero": {
+    "badge": "VeryChain P2P Marketplace",
+    "title": "Trusted Trading",
+    "titleHighlight": "with Pumasi",
+    "description": "Experience safe and fair P2P service trading with blockchain-based trust system and smart contracts.",
+    "findJobs": "Find Jobs",
+    "postJob": "Post a Job"
+  },
+  "features": {
+    "title": "Why Pumasi?",
+    "subtitle": "Implementing the spirit of traditional Pumasi with modern blockchain technology",
+    "findJobs": {
+      "title": "Find Jobs",
+      "description": "Browse and apply for various jobs across different fields"
+    },
+    "trustMatching": {
+      "title": "Trust-Based Matching",
+      "description": "Find reliable partners with Shinroe reputation scores"
+    },
+    "fairDisputes": {
+      "title": "Fair Dispute Resolution",
+      "description": "Trade safely with decentralized arbitration system"
+    },
+    "escrow": {
+      "title": "Smart Contract Escrow",
+      "description": "Stay protected with blockchain-based payments"
+    }
+  },
+  "benefits": {
+    "trustScore": "Safe trading with trust score-based matching",
+    "escrow": "Funds protected with smart contract escrow",
+    "arbitration": "Fair arbitration when disputes arise",
+    "reputation": "Build reputation with mutual reviews after completion",
+    "shinroeIntegration": "Shinroe Trust Score Integration",
+    "shinroeDescription": "Integrated with Shinroe's on-chain reputation system to find reliable trading partners.",
+    "trustScore": "Trust Score"
+  },
+  "cta": {
+    "title": "Get Started Now",
+    "description": "Find new opportunities on Pumasi, or share your talents.",
+    "getStarted": "Get Started"
+  },
+  "jobs": {
+    "title": "Find Jobs",
+    "subtitle": "Browse various jobs on Pumasi",
+    "postJob": "Post Job",
+    "search": "Search jobs...",
+    "filter": "Filter",
+    "category": "Category",
+    "status": "Status",
+    "budget": "Budget (VERY)",
+    "clearFilters": "Clear Filters",
+    "apply": "Apply",
+    "viewDetails": "View Details",
+    "noJobs": "No jobs found",
+    "noJobsDescription": "No jobs match your filters. Try adjusting your filters or post a new job.",
+    "resetFilters": "Reset Filters",
+    "createNew": "Post New Job"
+  },
+  "jobStatus": {
+    "open": "Open",
+    "in_progress": "In Progress",
+    "delivered": "Delivered",
+    "completed": "Completed",
+    "disputed": "Disputed",
+    "cancelled": "Cancelled"
+  },
+  "jobCategory": {
+    "translation": "Translation",
+    "design": "Design",
+    "writing": "Writing",
+    "development": "Development",
+    "tutoring": "Tutoring",
+    "data_entry": "Data Entry",
+    "delivery": "Delivery",
+    "misc": "Miscellaneous"
+  },
+  "postJob": {
+    "title": "Post a Job",
+    "steps": {
+      "basics": "Basic Info",
+      "details": "Details",
+      "payment": "Payment",
+      "review": "Review"
+    },
+    "basics": {
+      "title": "Basic Information",
+      "jobTitle": "Job Title",
+      "jobTitlePlaceholder": "e.g., Korean to English Translation",
+      "category": "Category",
+      "selectCategory": "Select a category",
+      "description": "Description",
+      "descriptionPlaceholder": "Describe the job in detail..."
+    },
+    "details": {
+      "title": "Job Details",
+      "deadline": "Deadline",
+      "milestones": "Milestones",
+      "addMilestone": "Add Milestone",
+      "milestoneName": "Milestone Name",
+      "milestoneAmount": "Amount",
+      "milestoneDeadline": "Deadline"
+    },
+    "payment": {
+      "title": "Payment Settings",
+      "totalBudget": "Total Budget",
+      "paymentType": "Payment Type",
+      "fullPayment": "Full Payment",
+      "milestonePayment": "Milestone Payment",
+      "escrowInfo": "Funds will be held in escrow until work is approved"
+    },
+    "review": {
+      "title": "Review & Post",
+      "summary": "Job Summary",
+      "termsAgreement": "I agree to the Pumasi terms of service",
+      "post": "Post Job",
+      "posting": "Posting..."
+    }
+  },
+  "jobDetail": {
+    "title": "Job Details",
+    "postedBy": "Posted by",
+    "deadline": "Deadline",
+    "budget": "Budget",
+    "status": "Status",
+    "description": "Description",
+    "milestones": "Milestones",
+    "applications": "Applications",
+    "timeline": "Timeline",
+    "applyNow": "Apply Now",
+    "alreadyApplied": "Already Applied",
+    "applicationSubmitted": "Application submitted successfully",
+    "viewApplications": "View Applications",
+    "acceptApplication": "Accept Application",
+    "startWork": "Start Work",
+    "submitDelivery": "Submit Delivery",
+    "reviewDelivery": "Review Delivery",
+    "approveDelivery": "Approve Delivery",
+    "requestRevision": "Request Revision",
+    "raiseDispute": "Raise Dispute",
+    "relatedJob": "Related Job"
+  },
+  "applications": {
+    "title": "My Applications",
+    "subtitle": "Track your job applications",
+    "empty": "No applications yet",
+    "emptyDescription": "Start by applying to jobs that match your skills.",
+    "browseJobs": "Browse Jobs",
+    "status": "Status",
+    "appliedOn": "Applied on",
+    "viewJob": "View Job"
+  },
+  "applicationStatus": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "rejected": "Rejected"
+  },
+  "applicationsList": {
+    "noApplicants": "No applicants yet.",
+    "noFilterMatch": "No applicants match the filter criteria.",
+    "count": "{count} applicants",
+    "filter": {
+      "all": "All",
+      "status": "Status",
+      "sort": "Sort"
+    },
+    "sort": {
+      "newest": "Newest first",
+      "oldest": "Oldest first",
+      "trustHighest": "Highest trust",
+      "trustLowest": "Lowest trust"
+    }
+  },
+  "applicationCard": {
+    "noCoverLetter": "No cover letter provided.",
+    "portfolioCount": "{count} portfolio items",
+    "reject": "Reject",
+    "hire": "Hire"
+  },
+  "hireModal": {
+    "title": "Confirm Hire",
+    "description": "Are you sure you want to hire this freelancer?",
+    "error": "Failed to process hire.",
+    "contractTerms": "Contract Terms",
+    "job": "Job",
+    "budget": "Budget",
+    "estimatedTime": "Estimated Time",
+    "escrowWarning": "⚠️ Once confirmed, the budget will be locked in escrow and released to the freelancer upon work completion.",
+    "confirm": "Confirm Hire",
+    "processing": "Processing transaction...",
+    "pleaseWait": "Please wait.",
+    "startChat": "Start Chat",
+    "success": {
+      "title": "Hire Complete!",
+      "message": "The freelancer has been notified. Use VeryChat to discuss work details."
+    }
+  },
+  "applyModal": {
+    "title": "Apply",
+    "description": "Applying for {jobTitle}. Please fill out the information below.",
+    "coverLetter": "Cover Letter",
+    "coverLetterPlaceholder": "Explain why you want this job, relevant experience, etc...",
+    "characterCount": "{current}/{max} characters (minimum {min})",
+    "proposedTimeline": "Expected Work Period",
+    "proposedTimelinePlaceholder": "e.g., Can complete within a week",
+    "portfolioLinks": "Portfolio Links",
+    "portfolioLinksPlaceholder": "https://...",
+    "addLink": "Add Link",
+    "termsAgreement": "I agree to the application terms and escrow policy. The contract begins when the client accepts.",
+    "submit": "Apply",
+    "submitting": "Submitting...",
+    "invalidUrl": "Please enter a valid URL.",
+    "submitError": "Failed to submit application.",
+    "toastSuccess": "Application submitted successfully!"
+  },
+  "disputes": {
+    "title": "Disputes",
+    "subtitle": "Manage and resolve disputes",
+    "disputeId": "Dispute #{id}",
+    "relatedJob": "Related Job",
+    "client": "Client",
+    "freelancer": "Freelancer",
+    "evidenceDeadline": "Evidence Deadline",
+    "votingDeadline": "Voting Deadline",
+    "createdAt": "Dispute created on: {date}",
+    "submitEvidence": "Submit Evidence",
+    "castVote": "Cast Vote",
+    "resolution": "Resolution",
+    "noDisputes": "No disputes",
+    "noDisputesDescription": "You have no active or past disputes.",
+    "count": "{count} disputes",
+    "tabs": {
+      "myDisputes": "My Disputes",
+      "arbitration": "Arbitration"
+    },
+    "filter": {
+      "all": "All",
+      "evidence": "Evidence Phase",
+      "voting": "Voting",
+      "resolved": "Resolved"
+    },
+    "role": {
+      "asClient": "As Client",
+      "asFreelancer": "As Freelancer"
+    },
+    "browseJobs": "Browse Jobs"
+  },
+  "disputeStatus": {
+    "evidence": "Collecting Evidence",
+    "voting": "Voting",
+    "resolved": "Resolved"
+  },
+  "voteDecision": {
+    "full_to_client": "Full refund to client",
+    "full_to_freelancer": "Full payment to freelancer",
+    "split": "50/50 Split"
+  },
+  "arbitration": {
+    "title": "Arbitration Dashboard",
+    "subtitle": "Help resolve disputes and earn rewards",
+    "register": "Become an Arbitrator",
+    "requirements": "Requirements",
+    "minScore": "Minimum Shinroe Score: {score}",
+    "minStake": "Minimum Stake: {amount} VERY",
+    "pendingCases": "Pending Cases",
+    "completedCases": "Completed Cases",
+    "earnings": "Total Earnings",
+    "accuracy": "Accuracy Rate",
+    "stake": "Staked Amount",
+    "registerForm": {
+      "title": "Arbitrator Registration",
+      "stakeAmount": "Stake Amount",
+      "stakeDescription": "Stake VERY tokens to become an arbitrator. Higher stakes increase your priority.",
+      "register": "Register as Arbitrator",
+      "registering": "Registering..."
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "copyAddress": "Copy Address",
+    "editProfile": "Edit Profile",
+    "arbitrator": "Arbitrator",
+    "memberSince": "Member since {date}",
+    "stats": {
+      "jobsCompleted": "Jobs Completed",
+      "jobsPosted": "Jobs Posted",
+      "jobsPostedCount": "{count} posted",
+      "totalEarned": "Total Earned",
+      "totalSpent": "Total Spent",
+      "successRate": "Success Rate",
+      "averageRating": "Average Rating",
+      "reviewCount": "{count} reviews",
+      "responseRate": "Response Rate"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "reviews": "Reviews",
+      "history": "History"
+    },
+    "reviews": {
+      "title": "Reviews",
+      "noReviews": "No reviews yet",
+      "asClient": "As Client",
+      "asFreelancer": "As Freelancer",
+      "showLess": "Show less",
+      "showMore": "Show more ({count})"
+    }
+  },
+  "chat": {
+    "title": "Messages",
+    "noMessages": "No messages yet",
+    "startConversation": "Start the conversation",
+    "typeMessage": "Type a message...",
+    "send": "Send",
+    "unread": "Unread",
+    "authRequired": "VeryChat authentication is required to use chat",
+    "connectionRequired": "VeryChat connection required",
+    "openChat": "Open Chat",
+    "projectChat": "Project Chat",
+    "emptyMessage": "No messages yet. Start the conversation!",
+    "fileSent": "sent a file",
+    "read": "Read",
+    "file": "File",
+    "notifications": {
+      "newMessage": "New Message",
+      "from": "from {sender}"
+    }
+  },
+  "escrow": {
+    "deposit": "Deposit to Escrow",
+    "depositing": "Depositing...",
+    "deposited": "Deposited",
+    "release": "Release Funds",
+    "releasing": "Releasing...",
+    "released": "Released",
+    "refund": "Refund",
+    "refunding": "Refunding...",
+    "refunded": "Refunded",
+    "balance": "Escrow Balance"
+  },
+  "milestones": {
+    "title": "Milestones",
+    "pending": "Pending",
+    "inProgress": "In Progress",
+    "delivered": "Delivered",
+    "approved": "Approved",
+    "addMilestone": "Add Milestone"
+  },
+  "delivery": {
+    "title": "Submit Delivery",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe what you've completed...",
+    "files": "Attached Files",
+    "addFiles": "Add Files",
+    "notes": "Additional Notes",
+    "notesPlaceholder": "Any additional information...",
+    "submit": "Submit Delivery",
+    "submitting": "Submitting..."
+  },
+  "revision": {
+    "title": "Request Revision",
+    "reason": "Reason for Revision",
+    "reasonPlaceholder": "Explain what needs to be revised...",
+    "submit": "Request Revision",
+    "submitting": "Requesting..."
+  },
+  "evidence": {
+    "title": "Submit Evidence",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe your evidence...",
+    "files": "Supporting Files",
+    "submit": "Submit Evidence",
+    "submitting": "Submitting..."
+  },
+  "vote": {
+    "title": "Cast Vote",
+    "decision": "Your Decision",
+    "rationale": "Rationale",
+    "rationalePlaceholder": "Explain your reasoning...",
+    "submit": "Submit Vote",
+    "submitting": "Submitting..."
+  },
+  "shinroe": {
+    "score": "Trust Score",
+    "newUser": "New User",
+    "buildReputation": "Build your reputation by completing jobs"
+  },
+  "errors": {
+    "userRejected": "Transaction was cancelled by user",
+    "insufficientFunds": "Insufficient balance",
+    "gasExceeded": "Gas limit exceeded",
+    "networkError": "Network connection error",
+    "timeout": "Transaction timed out",
+    "walletNotConnected": "Wallet is not connected",
+    "contractNotLoaded": "Could not load contract",
+    "clientNotReady": "Network client not ready. Please wait and try again.",
+    "transactionFailed": "Transaction failed. Please try again.",
+    "default": "An error occurred while processing the transaction",
+    "fileTooLarge": "File size cannot exceed 10MB"
+  },
+  "postJobWizard": {
+    "backToList": "Back to Jobs",
+    "title": "Post a Job",
+    "subtitle": "Register a new job and deposit escrow funds",
+    "toastSuccess": "Job posted successfully!",
+    "steps": {
+      "details": "Job Info",
+      "payment": "Payment Structure",
+      "deposit": "Deposit",
+      "success": "Complete"
+    },
+    "detailsCard": {
+      "title": "Job Information",
+      "description": "Enter basic information about the job"
+    },
+    "milestoneCard": {
+      "title": "Milestone Settings",
+      "description": "Divide your budget into milestones. Payment is released upon completion of each milestone."
+    },
+    "previous": "Previous",
+    "nextStep": "Next Step",
+    "success": {
+      "title": "Job Posted Successfully!",
+      "message": "Your job has been registered. Please wait for applicants to apply.",
+      "backToList": "Back to Jobs",
+      "viewMyJobs": "View My Jobs"
+    }
+  },
+  "jobDetailPage": {
+    "backToList": "Back to list",
+    "description": "Description",
+    "jobInfo": "Job Information",
+    "budget": "Budget",
+    "deadline": "Deadline",
+    "remaining": "remaining",
+    "postedOn": "Posted On",
+    "metadata": "Metadata",
+    "viewOnIpfs": "View on IPFS",
+    "clientInfo": "Client Information",
+    "trustScore": "Trust Score: Coming Soon",
+    "apply": "Apply",
+    "alreadyApplied": "You have already applied",
+    "applicationAccepted": "Your application was accepted!",
+    "goToWorkspace": "Go to Workspace",
+    "goToWorkspaceDescription": "You can now start working on this job.",
+    "applicationStatus": "Status",
+    "creatorNote": "Your Job Posting",
+    "cannotApplyOwn": "You cannot apply to your own job posting. Check applications below.",
+    "applications": {
+      "title": "Applications",
+      "empty": "No applications yet. Share your job to get more visibility!",
+      "appliedAt": "Applied on",
+      "accept": "Accept",
+      "reject": "Reject",
+      "viewDetails": "View Details",
+      "viewProfile": "View Profile",
+      "acceptSuccess": "Freelancer hired successfully!",
+      "rejectSuccess": "Application rejected.",
+      "freelancerHired": "A freelancer has been hired for this job. Applications are now closed.",
+      "hiredFreelancer": "Hired Freelancer",
+      "hiringInProgress": "Hiring in progress... Please confirm the transaction in your wallet.",
+      "acceptingApplication": "Step 1/2: Accepting application...",
+      "assigningFreelancer": "Step 2/2: Assigning freelancer to job...",
+      "viewWorkspace": "View Workspace",
+      "status": {
+        "pending": "Pending",
+        "accepted": "Accepted",
+        "rejected": "Rejected"
+      }
+    },
+    "notFound": {
+      "title": "Job Not Found",
+      "message": "The requested job does not exist or has been deleted.",
+      "backToList": "Back to list"
+    }
+  },
+  "applicationDetail": {
+    "coverLetter": "Cover Letter",
+    "noCoverLetter": "No cover letter provided.",
+    "proposedTimeline": "Proposed Timeline",
+    "portfolioLinks": "Portfolio Links",
+    "viewOnIpfs": "View proposal on IPFS",
+    "viewProfile": "View Profile"
+  },
+  "applicationPage": {
+    "title": "Application Details",
+    "backToJob": "Back to Job",
+    "status": "Status",
+    "appliedOn": "Applied on",
+    "freelancerInfo": "Freelancer",
+    "jobInfo": "Job Details",
+    "proposal": "Proposal",
+    "nextSteps": "Next Steps",
+    "goToWorkspace": "Go to Workspace",
+    "workspaceDescription": "Continue to the job workspace to communicate with the freelancer and manage deliverables.",
+    "notFound": {
+      "title": "Application Not Found",
+      "message": "The requested application does not exist.",
+      "backToJobs": "Back to Jobs"
+    },
+    "statusMessages": {
+      "accepted": "This application has been accepted. The freelancer is now working on your job.",
+      "pending": "This application is pending review.",
+      "rejected": "This application has been rejected."
+    }
+  },
+  "activeJobs": {
+    "title": "Active Jobs",
+    "asClient": "As Client",
+    "asFreelancer": "As Freelancer",
+    "noClientJobs": "No active client jobs",
+    "noFreelancerJobs": "No active freelancer jobs",
+    "overdue": "Overdue",
+    "daysRemaining": "{days} days left",
+    "workspace": "Workspace",
+    "browseJobs": "Browse Jobs"
+  },
+  "workspace": {
+    "notFound": "Job not found",
+    "backToList": "Back to list",
+    "noPermission": "You do not have permission for this job",
+    "quickActions": "Quick Actions",
+    "submitDelivery": "Submit Delivery",
+    "approve": "Approve",
+    "requestRevision": "Request Revision",
+    "raiseDispute": "Raise Dispute",
+    "tabs": {
+      "overview": "Overview",
+      "submitDelivery": "Submit",
+      "reviewDelivery": "Review",
+      "timeline": "Timeline"
+    }
+  },
+  "disputePage": {
+    "title": "Dispute Details",
+    "submittedEvidence": "Submitted Evidence",
+    "noEvidence": "No evidence submitted.",
+    "viewEvidence": "View {party} evidence",
+    "notFound": {
+      "title": "Dispute Not Found",
+      "message": "The requested dispute does not exist or you do not have access.",
+      "backToList": "Back to jobs"
+    }
+  },
+  "profilePage": {
+    "notFound": "Profile not found",
+    "checkAddress": "Please check the address: {address}",
+    "noPostedJobs": "No jobs posted",
+    "noCompletedJobs": "No jobs completed",
+    "tabs": {
+      "reviews": "Reviews ({count})",
+      "posted": "Posted ({count})",
+      "completed": "Completed ({count})"
+    }
+  },
+  "profileWallet": {
+    "title": "Wallet Connection Required",
+    "message": "Please connect your wallet to view your profile",
+    "connect": "Connect Wallet"
+  },
+  "editProfile": {
+    "title": "Edit Profile",
+    "images": "Profile Images",
+    "displayName": "Display Name",
+    "displayNamePlaceholder": "Your name or alias",
+    "jobTitle": "Professional Title",
+    "jobTitlePlaceholder": "e.g., Full Stack Developer",
+    "bio": "Bio",
+    "bioPlaceholder": "Tell clients about yourself...",
+    "location": "Location",
+    "locationPlaceholder": "e.g., Seoul, South Korea",
+    "website": "Website",
+    "availability": "Availability",
+    "availableNow": "Available Now",
+    "busy": "Busy",
+    "unavailable": "Not Available",
+    "hourlyRate": "Hourly Rate (USD)",
+    "skills": "Skills",
+    "addSkill": "Add a skill",
+    "languages": "Languages",
+    "addLanguage": "Add a language",
+    "socials": "Social Links",
+    "save": "Save Profile",
+    "saved": "Profile saved successfully!",
+    "saveFailed": "Failed to save profile",
+    "nameRequired": "Display name is required"
+  },
+  "verychat": {
+    "title": "VeryChat Verification",
+    "notConfigured": "VeryChat is not configured",
+    "verified": "VeryChat Verified",
+    "disconnect": "Disconnect",
+    "handlePlaceholder": "@your_handle",
+    "handleHint": "Enter your VeryChat handle to verify ownership",
+    "codeSent": "Verification code sent to {handle}",
+    "codePlaceholder": "6-digit code",
+    "resend": "Send new code",
+    "verifySuccess": "VeryChat verified successfully!",
+    "verifyFailed": "Verification failed"
+  },
+  "arbitrationDashboard": {
+    "title": "Arbitrator Dashboard",
+    "notRegistered": {
+      "title": "Arbitrator Registration Required",
+      "message": "You need to register as an arbitrator to participate in dispute resolution. You must stake a certain amount of VERY tokens and have a sufficient Shinroe score.",
+      "register": "Register as Arbitrator"
+    },
+    "pendingDisputes": "Pending Disputes",
+    "noDisputes": "No disputes available for voting."
+  },
+  "arbitratorRegister": {
+    "title": "Arbitrator Registration",
+    "subtitle": "Participate in dispute resolution",
+    "steps": {
+      "eligibility": "Eligibility",
+      "stake": "Staking",
+      "guidelines": "Guidelines",
+      "complete": "Complete"
+    },
+    "eligibility": {
+      "title": "Eligibility Check",
+      "description": "Check your Shinroe score to become an arbitrator.",
+      "myScore": "My Shinroe Score",
+      "minRequired": "Minimum required: {score}",
+      "eligible": "You meet the requirements!",
+      "ineligible": "Your Shinroe score is insufficient. Please increase your score through more activity."
+    },
+    "stake": {
+      "title": "Token Staking",
+      "description": "Stake VERY tokens for arbitrator activities.",
+      "amount": "Staking Amount (VERY)",
+      "minRequired": "Minimum {amount} VERY required",
+      "warning": "Staked tokens may be partially slashed for improper judgments. Earn additional rewards through accurate decisions."
+    },
+    "guidelines": {
+      "title": "Arbitrator Guidelines",
+      "responsibilities": {
+        "title": "Arbitrator Responsibilities",
+        "items": [
+          "Make fair and objective judgments",
+          "Carefully review evidence from both parties",
+          "Vote within the deadline",
+          "Provide clear reasoning for decisions"
+        ]
+      },
+      "rewardsAndPenalties": {
+        "title": "Rewards & Penalties",
+        "items": [
+          "Accurate judgment: Receive portion of dispute amount as reward",
+          "Inaccurate judgment: Partial slashing of staked tokens",
+          "Non-participation: Warning and disqualification upon repeated offense"
+        ]
+      },
+      "agreement": "I have read the above guidelines and understand and agree to my responsibilities as an arbitrator.",
+      "registering": "Registering...",
+      "register": "Complete Registration"
+    },
+    "complete": {
+      "title": "Registration Complete!",
+      "message": "You have been registered as an arbitrator. You can now participate in dispute voting.",
+      "goToDashboard": "Go to Dashboard"
+    }
+  },
+  "scoreBadge": {
+    "points": "{score} points",
+    "tier": "{tier} Tier ({score} points)",
+    "endorsements": "Endorsements: {count}",
+    "airdrops": "Airdrops received: {count}",
+    "lastUpdated": "Last updated: {date}",
+    "clickToView": "Click to view Shinroe profile"
+  },
+  "reviewForm": {
+    "title": "Write Review",
+    "description": "Please leave a review for {jobTitle}",
+    "rating": "Rating",
+    "ratings": {
+      "poor": "Poor",
+      "fair": "Fair",
+      "good": "Average",
+      "veryGood": "Good",
+      "excellent": "Excellent"
+    },
+    "comment": "Review Content",
+    "commentPlaceholder": "Please leave an honest review about the work (minimum 10 characters)",
+    "reviewee": "Reviewee:",
+    "submit": "Submit Review",
+    "submitting": "Submitting..."
+  },
+  "arbitratorStats": {
+    "title": "My Arbitrator Status",
+    "casesHandled": "Cases Handled",
+    "accuracy": "Accuracy",
+    "totalEarnings": "Total Earnings",
+    "staking": "Staking",
+    "bonusInfo": "You'll receive bonus rewards if your accuracy is 80% or higher."
+  },
+  "disputeCard": {
+    "job": "Job",
+    "vs": "vs",
+    "daysRemaining": "{days} days remaining",
+    "hoursRemaining": "{hours} hours remaining",
+    "votesCount": "{current}/{total} votes",
+    "vote": "Vote",
+    "viewDetails": "View Details"
+  },
+  "disputeVotes": {
+    "title": "Voting Status",
+    "noVotes": "No votes yet.",
+    "finalDecision": "Final Decision"
+  },
+  "disputeTimeline": {
+    "title": "Timeline",
+    "created": "Dispute Raised",
+    "createdDescription": "The dispute has been initiated",
+    "evidenceDeadline": "Evidence Deadline",
+    "evidenceInProgress": "Evidence submission in progress",
+    "evidenceCompleted": "Evidence submission completed",
+    "voting": "Voting",
+    "votesCompleted": "{count} votes completed",
+    "resolved": "Decision Complete"
+  },
+  "voteForm": {
+    "title": "Vote",
+    "description": "Review the evidence and make your decision.",
+    "voteComplete": "Vote Complete",
+    "voteCompleteDescription": "You have completed your vote on this dispute.",
+    "jobInfo": "Job Information",
+    "submittedEvidence": "Submitted Evidence",
+    "viewClientEvidence": "View Client Evidence",
+    "noClientEvidence": "No client evidence",
+    "viewFreelancerEvidence": "View Freelancer Evidence",
+    "noFreelancerEvidence": "No freelancer evidence",
+    "decision": "Decision",
+    "rationale": "Rationale",
+    "rationalePlaceholder": "Explain your reasoning for this decision...",
+    "rationaleLength": "{current}/{max} characters (minimum {min} characters)",
+    "error": "Failed to cast vote.",
+    "submitting": "Submitting...",
+    "submit": "Cast Vote"
+  },
+  "evidenceForm": {
+    "title": "Submit Evidence",
+    "description": "Evidence Description",
+    "descriptionPlaceholder": "Please provide a detailed description of your evidence. Organizing chronologically is helpful...",
+    "descriptionLength": "{current}/{max} characters (minimum {min} characters)",
+    "attachments": "Attachments",
+    "daysHoursRemaining": "{days} days {hours} hours remaining",
+    "hoursMinutesRemaining": "{hours} hours {minutes} minutes remaining",
+    "deadlinePassed": "The evidence submission deadline has passed. You can no longer submit evidence.",
+    "alreadySubmitted": "You have already submitted evidence. You can update it if you have additional evidence.",
+    "invalidUrl": "Please enter a valid URL.",
+    "error": "Failed to submit evidence.",
+    "submitting": "Submitting...",
+    "submit": "Submit Evidence"
+  },
+  "raiseDisputeModal": {
+    "title": "Raise Dispute",
+    "description": "Raising a dispute for {jobTitle}. Please decide carefully.",
+    "warning": "Once a dispute is raised, an arbitrator will be assigned to review evidence from both parties. False disputes may result in penalties.",
+    "reason": "Dispute Reason",
+    "reasonPlaceholder": "e.g., Agreed upon deliverable was not provided",
+    "reasonLength": "{current}/{max} characters (minimum {min} characters)",
+    "detailedDescription": "Detailed Description",
+    "descriptionPlaceholder": "Please describe the background and details of the dispute...",
+    "descriptionLength": "{current}/{max} characters (minimum {min} characters)",
+    "evidenceFiles": "Evidence Files (Optional)",
+    "evidenceHelp": "Add links to screenshots, conversation logs, contract documents, etc.",
+    "confirmation": "I understand and agree that when a dispute is raised, the escrow funds will be frozen and distributed according to the arbitrator's decision.",
+    "invalidUrl": "Please enter a valid URL.",
+    "error": "Failed to raise dispute.",
+    "submitting": "Submitting...",
+    "submit": "Raise Dispute"
+  },
+  "escrowDeposit": {
+    "jobSummary": "Job Summary",
+    "title": "Title",
+    "category": "Category",
+    "deadline": "Deadline",
+    "paymentType": "Payment Type",
+    "fullPayment": "Full Payment",
+    "milestonePayment": "Milestone Payment",
+    "milestones": "Milestones",
+    "depositTitle": "Escrow Deposit",
+    "jobBudget": "Job Budget",
+    "platformFee": "Platform Fee ({percentage}%)",
+    "totalAmount": "Total Amount",
+    "balance": "Balance",
+    "insufficientBalance": "Insufficient Balance",
+    "confirmingTx": "Confirming transaction...",
+    "uploadingAndProcessing": "Uploading to IPFS and processing transaction...",
+    "successMessage": "Job successfully registered!",
+    "walletRequired": "Wallet connection required",
+    "completed": "Completed",
+    "depositButton": "Deposit to Escrow"
+  },
+  "milestoneBuilder": {
+    "title": "Milestone Settings",
+    "totalBudget": "Total Budget: {amount} VERY",
+    "balanced": "Balanced",
+    "titleRequired": "Title required",
+    "amountRequired": "Amount required",
+    "deadlineRequired": "Deadline required",
+    "deadlineBeforeJob": "Must be before job deadline",
+    "unallocated": "{amount} VERY unallocated",
+    "exceeded": "{amount} VERY exceeded",
+    "milestoneTitle": "Milestone Title",
+    "milestoneTitlePlaceholder": "Milestone title",
+    "amount": "Amount",
+    "selectDeadline": "Select deadline",
+    "addMilestone": "Add Milestone",
+    "remainingBudget": "Remaining budget: {amount} VERY",
+    "validation": {
+      "atLeastOne": "Please add at least one milestone",
+      "totalMismatch": "Total milestone amount must match total budget",
+      "milestoneTitle": "Milestone {number}: Title required",
+      "milestoneAmount": "Milestone {number}: Amount required",
+      "milestoneDeadline": "Milestone {number}: Deadline required",
+      "milestoneAfterJob": "Milestone {number}: Deadline is after job deadline"
+    }
+  },
+  "jobCategories": {
+    "translation": "Translation",
+    "design": "Design",
+    "writing": "Writing",
+    "development": "Development",
+    "tutoring": "Tutoring",
+    "data_entry": "Data Entry",
+    "delivery": "Delivery",
+    "misc": "Other"
+  },
+  "postJobForm": {
+    "titleLabel": "Title *",
+    "titlePlaceholder": "Enter job title",
+    "categoryLabel": "Category *",
+    "categoryPlaceholder": "Select category",
+    "descriptionLabel": "Description *",
+    "descriptionPlaceholder": "Enter detailed description of the job (Markdown supported)",
+    "budgetLabel": "Budget *",
+    "deadlineLabel": "Deadline *",
+    "selectDate": "Select date",
+    "paymentTypeLabel": "Payment Type *",
+    "fullPayment": "Full Payment",
+    "milestonePayment": "Milestone Payment",
+    "requirementsLabel": "Requirements (Optional)",
+    "requirementsPlaceholder": "Enter requirements for applicants",
+    "nextStep": "Next Step",
+    "validation": {
+      "titleLength": "Title must be 5-100 characters",
+      "categoryRequired": "Please select a category",
+      "descriptionLength": "Description must be 20-2000 characters",
+      "budgetMin": "Budget must be at least {amount} VERY",
+      "deadlineFuture": "Deadline must be a future date"
+    }
+  },
+  "statusTimeline": {
+    "title": "Timeline",
+    "noEvents": "No events yet",
+    "timelineTitle": "Work Timeline",
+    "milestone": "Milestone #{id}",
+    "events": {
+      "created": "Job Created",
+      "freelancerAssigned": "Freelancer Assigned",
+      "workStarted": "Work Started",
+      "deliverySubmitted": "Delivery Submitted",
+      "deliveryApproved": "Delivery Approved",
+      "revisionRequested": "Revision Requested",
+      "completed": "Completed",
+      "disputed": "Dispute Raised",
+      "cancelled": "Cancelled"
+    }
+  },
+  "revisionRequest": {
+    "title": "Request Revision",
+    "description": "Request a revision from the freelancer. Please provide specific details about what needs to be revised.",
+    "reasonLabel": "Revision Reason *",
+    "reasonPlaceholder": "Please explain why revision is needed (minimum 10 characters)",
+    "minChars": "{count}/10 characters minimum",
+    "feedbackLabel": "Specific Feedback",
+    "feedbackPlaceholder": "Provide detailed feedback on what needs to be revised and the desired outcome (optional)",
+    "noteLabel": "Note:",
+    "noteText": "Revision requests will be sent as notifications to the freelancer. Unreasonable revision requests may work against you in dispute resolution.",
+    "requesting": "Requesting...",
+    "submitButton": "Request Revision"
+  },
+  "milestoneProgress": {
+    "title": "Milestones",
+    "noMilestones": "This job has no milestones",
+    "progressTitle": "Milestone Progress",
+    "completed": "{completed}/{total} Completed",
+    "paidAmount": "{amount} VERY paid",
+    "totalAmount": "Total {amount} VERY",
+    "daysLeft": "{days} days left",
+    "status": {
+      "pending": "Pending",
+      "inProgress": "In Progress",
+      "delivered": "Submitted",
+      "approved": "Completed"
+    }
+  },
+  "deliveryReview": {
+    "noDeliveries": "No deliveries yet",
+    "noDeliveriesDescription": "Deliveries will appear here when the freelancer completes their work.",
+    "deliveryTitle": "Delivery #{id}",
+    "submittedOn": "Submitted on: {date}",
+    "descriptionLabel": "Description",
+    "freelancerNotes": "Freelancer Notes",
+    "attachedFiles": "Attached Files",
+    "fileNumber": "File {number}",
+    "approve": "Approve",
+    "requestRevision": "Request Revision",
+    "revisionRequested": "Revision Requested",
+    "status": {
+      "pending": "Pending Review",
+      "approved": "Approved",
+      "revisionRequested": "Revision Requested"
+    }
+  },
+  "deliveryForm": {
+    "title": "Submit Delivery",
+    "description": "Submit your completed work for delivery",
+    "descriptionLabel": "Delivery Description *",
+    "descriptionPlaceholder": "Describe your completed work",
+    "filesLabel": "File Upload *",
+    "dragOrClick": "Drag files here or click to upload",
+    "selectFiles": "Select Files",
+    "notesLabel": "Additional Notes",
+    "notesPlaceholder": "Notes for the client (optional)",
+    "submitting": "Submitting...",
+    "submitButton": "Submit Delivery",
+    "successTitle": "Delivery Complete!",
+    "successMessage": "Awaiting client review."
+  },
+  "jobSummary": {
+    "title": "Job Summary",
+    "budget": "Budget",
+    "deadline": "Deadline",
+    "createdAt": "Posted On",
+    "timeRemaining": "Time Remaining",
+    "expired": "Expired",
+    "client": "Client",
+    "freelancer": "Freelancer"
+  },
+  "demo": {
+    "postJob": {
+      "templates": {
+        "0": {
+          "title": "English Translation - 10 Page Marketing Brochure",
+          "description": "Looking for English translation of marketing materials.\n\nScope:\n- 10-page Korean brochure to English\n- Product intro and company profile\n- Professional business tone\n\nDelivery: Word format, 5 business days",
+          "requirements": "- Native-level English\n- 2+ years marketing translation\n- Quick communication",
+          "budget": "50",
+          "category": "translation"
+        },
+        "1": {
+          "title": "Logo Design for Tech Startup",
+          "description": "Need a modern, minimal logo for our AI startup.\n\nRequirements:\n- Clean, scalable design\n- Primary colors: blue/purple gradient\n- Include wordmark and icon versions\n- Deliver in SVG, PNG, AI formats",
+          "requirements": "- Portfolio with tech/startup logos\n- Figma or Adobe experience\n- 2-3 revision rounds included",
+          "budget": "100",
+          "category": "design"
+        },
+        "2": {
+          "title": "React Frontend Developer - Dashboard UI",
+          "description": "Build an admin dashboard with React + TypeScript.\n\nFeatures:\n- User management table with CRUD\n- Analytics charts (recharts/chart.js)\n- Responsive sidebar navigation\n- Dark/light theme toggle",
+          "requirements": "- 3+ years React experience\n- TypeScript proficiency\n- Tailwind CSS knowledge\n- Git workflow",
+          "budget": "200",
+          "category": "development"
+        },
+        "3": {
+          "title": "Blog Article Writing - Web3 Topic",
+          "description": "Write 3 blog articles about Web3 and blockchain.\n\nTopics:\n1. Introduction to DeFi\n2. NFTs explained for beginners\n3. Smart contracts use cases\n\n1500-2000 words each, SEO optimized.",
+          "requirements": "- Crypto/blockchain knowledge\n- SEO writing experience\n- Native English writer\n- Include research links",
+          "budget": "75",
+          "category": "writing"
+        },
+        "4": {
+          "title": "Korean Language Tutoring - Beginner Level",
+          "description": "Looking for Korean language tutor.\n\nDetails:\n- 10 one-hour sessions\n- Beginner level (Hangul basics)\n- Focus on conversational skills\n- Flexible scheduling (weekends OK)",
+          "requirements": "- Native Korean speaker\n- Teaching experience\n- Patient with beginners\n- Zoom/Google Meet available",
+          "budget": "150",
+          "category": "tutoring"
+        }
+      }
+    },
+    "apply": {
+      "templates": {
+        "0": {
+          "coverLetter": "Hello! I'm excited to apply for this project.\n\nI have 5 years of professional experience in this field. My key strengths:\n- Fast turnaround with quality results\n- Clear communication throughout\n- Flexible to feedback and revisions\n\nI'm confident I can exceed your expectations!",
+          "timeline": "5 days (draft in 3 days + review)",
+          "portfolioLink1": "https://portfolio.example.com/work",
+          "portfolioLink2": "https://linkedin.com/in/demo-profile"
+        },
+        "1": {
+          "coverLetter": "Hi there! Your project caught my attention.\n\nWith my background in this area, I can deliver exactly what you need. I've worked with similar clients and understand the requirements well.\n\nLet's discuss the details - I'm ready to start immediately!",
+          "timeline": "1 week with milestone check-ins",
+          "portfolioLink1": "https://behance.net/demo-portfolio",
+          "portfolioLink2": "https://github.com/demo-user"
+        },
+        "2": {
+          "coverLetter": "Thank you for this opportunity!\n\nI specialize in projects like yours and have completed 50+ similar jobs with 5-star ratings. My process:\n1. Initial consultation\n2. First draft within 48hrs\n3. Revisions until satisfied\n\nLooking forward to collaborating!",
+          "timeline": "3-4 business days",
+          "portfolioLink1": "https://dribbble.com/demo",
+          "portfolioLink2": "https://portfolio.demo.io"
+        },
+        "3": {
+          "coverLetter": "Hi! I'd love to help with this project.\n\nMy relevant experience includes:\n- 100+ completed projects\n- Expertise in your industry\n- Quick response time (within 2hrs)\n\nI prioritize quality and client satisfaction above all.",
+          "timeline": "Complete by your deadline with buffer",
+          "portfolioLink1": "https://notion.so/demo-portfolio",
+          "portfolioLink2": "https://twitter.com/demo_work"
+        },
+        "4": {
+          "coverLetter": "Great project! I'm the right fit for this.\n\nWhat sets me apart:\n- Deep expertise in this niche\n- Transparent progress updates\n- Unlimited revisions policy\n\nCheck my portfolio - you'll see I deliver premium work consistently.",
+          "timeline": "6 days with daily updates",
+          "portfolioLink1": "https://mysite.example.com",
+          "portfolioLink2": "https://youtube.com/@demo-channel"
+        }
+      }
+    },
+    "evidence": {
+      "templates": {
+        "0": {
+          "description": "Evidence Summary:\n\n1. Work Completed On Time\n- Delivered within deadline\n- All requirements met\n\n2. Communication Logs\n- Responded within 24hrs\n- Incorporated all feedback\n\n3. Quality Standards\n- Peer reviewed\n- Meets industry standards\n\nSee attached files.",
+          "fileLink1": "https://drive.google.com/file/d/chat-logs-001",
+          "fileLink2": "https://drive.google.com/file/d/deliverables-001"
+        },
+        "1": {
+          "description": "Dispute Evidence:\n\nTimeline of Events:\n- Day 1: Project started\n- Day 3: First draft submitted\n- Day 4: Revision requested\n- Day 5: Final version delivered\n\nAll work was completed per agreement. Client communication was maintained throughout.",
+          "fileLink1": "https://drive.google.com/file/d/timeline-evidence",
+          "fileLink2": "https://drive.google.com/file/d/message-history"
+        },
+        "2": {
+          "description": "Supporting Documentation:\n\n1. Contract agreed upon: See link 1\n2. Delivered files: See link 2\n\nI fulfilled all obligations as specified. The work meets the agreed specifications and was delivered on schedule.",
+          "fileLink1": "https://drive.google.com/file/d/contract-copy",
+          "fileLink2": "https://drive.google.com/file/d/final-delivery"
+        },
+        "3": {
+          "description": "Evidence Submission:\n\nKey Points:\n- Scope was clearly defined\n- All milestones completed\n- Client approved intermediate work\n- Final delivery rejected without cause\n\nAttached: Screenshots and file exports.",
+          "fileLink1": "https://drive.google.com/file/d/screenshots",
+          "fileLink2": "https://drive.google.com/file/d/approvals"
+        },
+        "4": {
+          "description": "Case Documentation:\n\nFacts:\n1. Payment was escrowed\n2. Work delivered as specified\n3. No revision requests received\n4. Client unresponsive for 5 days\n\nRequest: Release of escrowed funds.",
+          "fileLink1": "https://drive.google.com/file/d/delivery-proof",
+          "fileLink2": "https://drive.google.com/file/d/communication-log"
+        }
+      }
+    },
+    "delivery": {
+      "templates": {
+        "0": {
+          "description": "Work Completed!\n\nDeliverables:\n- All requested items finished\n- Quality checked and reviewed\n- Formatted per specifications\n\nAttached: Final files ready for use.",
+          "notes": "Contact me via chat for urgent revisions. Response within 24hrs."
+        },
+        "1": {
+          "description": "Project Delivery Report:\n\nCompleted Items:\n1. Main deliverable - 100%\n2. Supporting materials - included\n3. Source files - attached\n\nPlease review and let me know if you need any adjustments!",
+          "notes": "Happy to make minor tweaks at no extra cost."
+        },
+        "2": {
+          "description": "Final Submission:\n\nI've completed all work as discussed. Highlights:\n- Exceeded original scope slightly\n- Added bonus materials\n- Optimized for your use case\n\nLooking forward to your feedback!",
+          "notes": "Available for a call if you'd like to walk through the deliverables."
+        },
+        "3": {
+          "description": "Delivery Complete!\n\nPackage includes:\n- Primary deliverables (as agreed)\n- Documentation/instructions\n- Editable source files\n\nEverything is organized in folders. Let me know if anything needs clarification.",
+          "notes": "Revision requests welcome within 48 hours."
+        },
+        "4": {
+          "description": "Project Finished:\n\nSummary:\n- All requirements fulfilled\n- Quality assurance passed\n- Ready for immediate use\n\nThank you for this opportunity. Hope to work together again!",
+          "notes": "Feel free to reach out for future projects. Discount for returning clients!"
+        }
+      }
+    },
+    "dispute": {
+      "templates": {
+        "0": {
+          "reason": "Deliverable quality below agreed standards",
+          "description": "Quality Issues Found:\n\n1. Multiple errors in the work\n2. Does not match specifications\n3. Missing key components\n\nRequest: Rework or partial refund.",
+          "fileLink1": "https://drive.google.com/file/d/quality-report",
+          "fileLink2": "https://drive.google.com/file/d/original-contract"
+        },
+        "1": {
+          "reason": "Work not delivered by deadline",
+          "description": "Timeline Breach:\n\n- Agreed deadline: [Date]\n- No delivery received\n- Multiple follow-ups ignored\n\nRequest: Full refund of escrowed funds.",
+          "fileLink1": "https://drive.google.com/file/d/deadline-agreement",
+          "fileLink2": "https://drive.google.com/file/d/message-attempts"
+        },
+        "2": {
+          "reason": "Freelancer unresponsive after payment",
+          "description": "Communication Breakdown:\n\n- Last response: 7 days ago\n- No progress updates\n- Work appears incomplete\n\nRequest: Refund or completion guarantee.",
+          "fileLink1": "https://drive.google.com/file/d/chat-history",
+          "fileLink2": "https://drive.google.com/file/d/last-update"
+        },
+        "3": {
+          "reason": "Scope changes not communicated",
+          "description": "Scope Dispute:\n\n- Original requirements attached\n- Freelancer delivered different work\n- No discussion of changes\n\nRequest: Delivery matching original scope.",
+          "fileLink1": "https://drive.google.com/file/d/requirements-doc",
+          "fileLink2": "https://drive.google.com/file/d/delivered-work"
+        },
+        "4": {
+          "reason": "Client refuses to approve completed work",
+          "description": "Unfair Rejection:\n\n- All requirements met\n- Work delivered on time\n- Client demands out-of-scope changes\n\nRequest: Release of payment for completed work.",
+          "fileLink1": "https://drive.google.com/file/d/completion-proof",
+          "fileLink2": "https://drive.google.com/file/d/scope-document"
+        }
+      }
+    },
+    "vote": {
+      "templates": {
+        "0": {
+          "rationale": "After reviewing both sides:\n\nClient: Provided evidence of quality issues\nFreelancer: Showed work completion\n\nConclusion: 50/50 split is fair as both share responsibility."
+        },
+        "1": {
+          "rationale": "Evidence Analysis:\n\n- Client's claims are well-documented\n- Freelancer failed to meet deadline\n- Communication logs confirm delays\n\nDecision: Client should receive full refund."
+        },
+        "2": {
+          "rationale": "Review Summary:\n\n- Work was delivered as specified\n- Client's complaints lack evidence\n- Scope was clearly defined and met\n\nDecision: Freelancer deserves full payment."
+        },
+        "3": {
+          "rationale": "Careful consideration of facts:\n\n- Partial work completed (70%)\n- Freelancer became unresponsive\n- Some value was delivered\n\nDecision: 70% to freelancer, 30% refund."
+        },
+        "4": {
+          "rationale": "Assessment:\n\n- Both parties contributed to miscommunication\n- Scope was ambiguous from start\n- Neither fully at fault\n\nDecision: Equal split recommended."
+        }
+      }
+    },
+    "revision": {
+      "templates": {
+        "0": {
+          "reason": "Minor quality adjustments needed",
+          "feedback": "Please revise:\n\n1. Fix formatting issues on page 3\n2. Update terminology consistency\n3. Soften the tone slightly\n\nOtherwise, great work!"
+        },
+        "1": {
+          "reason": "Does not fully match requirements",
+          "feedback": "Revisions needed:\n\n- Color scheme differs from brief\n- Missing mobile responsive version\n- Font sizes need adjustment\n\nPlease refer to original requirements."
+        },
+        "2": {
+          "reason": "Technical errors found",
+          "feedback": "Issues identified:\n\n1. Bug in login functionality\n2. API endpoint returns wrong data\n3. Mobile layout broken on iOS\n\nPlease fix and retest."
+        },
+        "3": {
+          "reason": "Content needs updates",
+          "feedback": "Please update:\n\n- Section 2 needs more detail\n- Remove outdated references\n- Add conclusion paragraph\n\nAlmost there!"
+        },
+        "4": {
+          "reason": "Missing requested features",
+          "feedback": "Missing items:\n\n1. Dark mode toggle\n2. Export functionality\n3. User settings page\n\nThese were in the original scope."
+        }
+      }
+    },
+    "review": {
+      "templates": {
+        "0": {
+          "comment": "Excellent work! Delivered on time with great quality. Communication was clear throughout. Would definitely hire again for future projects. Highly recommended!",
+          "rating": "5"
+        },
+        "1": {
+          "comment": "Good job overall. Met the requirements and was responsive to feedback. Minor delays but communicated well about them. Solid experience.",
+          "rating": "4"
+        },
+        "2": {
+          "comment": "Professional and skilled. The final result exceeded expectations. Quick turnaround and helpful suggestions. A pleasure to work with!",
+          "rating": "5"
+        },
+        "3": {
+          "comment": "Decent work but needed several revisions. Eventually got there. Communication could be better. Average experience.",
+          "rating": "3"
+        },
+        "4": {
+          "comment": "Outstanding! Not only met all requirements but added extra value. Very knowledgeable and patient. Top-tier freelancer!",
+          "rating": "5"
+        }
+      }
+    },
+    "deliverable": {
+      "templates": {
+        "0": {
+          "title": "Final Design Package",
+          "description": "Complete design deliverables including:\n- Final designs in Figma\n- Exported assets (SVG, PNG)\n- Style guide documentation\n\nAll files organized and ready for development handoff.",
+          "links": "https://figma.com/file/example\nhttps://drive.google.com/folder/assets"
+        },
+        "1": {
+          "title": "Translation Complete - Marketing Materials",
+          "description": "Completed translation of all 10 pages:\n- Professional business tone maintained\n- Technical terms verified\n- Proofread by native speaker\n\nWord document and PDF versions included.",
+          "links": "https://drive.google.com/file/translation-final"
+        },
+        "2": {
+          "title": "React Dashboard - Source Code",
+          "description": "Full source code delivery:\n- React + TypeScript codebase\n- All features implemented\n- Unit tests included\n- README with setup instructions",
+          "links": "https://github.com/demo/dashboard-project\nhttps://demo-dashboard.vercel.app"
+        },
+        "3": {
+          "title": "Blog Articles - Web3 Series",
+          "description": "3 SEO-optimized articles:\n1. DeFi Introduction (1,800 words)\n2. NFT Beginner Guide (2,000 words)\n3. Smart Contracts Explained (1,750 words)\n\nAll articles in Google Docs, editable.",
+          "links": "https://docs.google.com/document/d/article-1\nhttps://docs.google.com/document/d/article-2\nhttps://docs.google.com/document/d/article-3"
+        },
+        "4": {
+          "title": "Logo Design - Final Files",
+          "description": "Logo package includes:\n- Primary logo (color + B&W)\n- Icon version\n- Social media sizes\n- Brand guidelines PDF\n\nAll formats: AI, SVG, PNG, PDF",
+          "links": "https://drive.google.com/folder/logo-package"
+        }
+      }
+    }
+  },
+  "workspace": {
+    "title": "Workspace",
+    "role": {
+      "client": "Job Poster",
+      "freelancer": "Freelancer"
+    },
+    "jobSummary": "Job Summary",
+    "deadline": "Deadline",
+    "participants": "Participants",
+    "client": "Client",
+    "freelancer": "Freelancer",
+    "you": "You",
+    "actions": "Quick Actions",
+    "chat": "Messages",
+    "chatDescription": "Communicate with the other party",
+    "deliverables": "Deliverables",
+    "deliverablesDescription": "View and manage files",
+    "submitWork": "Submit Work",
+    "submitWorkDescription": "Submit your completed work",
+    "approveWork": "Review Work",
+    "approveWorkDescription": "Review and approve deliverables",
+    "comingSoon": "Workspace Coming Soon",
+    "comingSoonMessage": "Full workspace features including messaging, file sharing, and milestone tracking are under development.",
+    "connectWallet": "Connect Wallet",
+    "connectWalletMessage": "Please connect your wallet to access the workspace.",
+    "jobNotFound": "Job Not Found",
+    "jobNotFoundMessage": "The job you're looking for doesn't exist or has been removed.",
+    "noFreelancer": "No Freelancer Assigned",
+    "noFreelancerMessage": "A freelancer hasn't been accepted for this job yet. The workspace will be available once a freelancer is hired.",
+    "accessDenied": "Access Denied",
+    "accessDeniedMessage": "Only the job poster and the accepted freelancer can access this workspace.",
+    "backToJob": "Back to Job",
+    "jobStatus": {
+      "open": "Freelancer assigned. Waiting for work to begin.",
+      "in_progress": "Work in progress. Waiting for freelancer to submit deliverables.",
+      "delivered": "Work submitted. Waiting for client to review and approve.",
+      "completed": "Job completed! Funds have been released to the freelancer.",
+      "disputed": "This job is currently under dispute.",
+      "cancelled": "This job has been cancelled."
+    },
+    "submitDeliverableTitle": "Submit Deliverable",
+    "submitDeliverableDescription": "Provide a link to your completed work (IPFS, Google Drive, etc.)",
+    "deliverableLink": "Deliverable Link",
+    "deliverablePlaceholder": "ipfs://... or https://...",
+    "submitDeliverableButton": "Submit Deliverable",
+    "submittingDeliverable": "Submitting...",
+    "uploadingToIPFS": "Uploading to IPFS...",
+    "deliverableSubmitted": "Deliverable submitted successfully!",
+    "deliverableTitleLabel": "Deliverable Title",
+    "deliverableTitlePlaceholder": "e.g., Final Design Files",
+    "deliverableTitleRequired": "Please enter a title for your deliverable",
+    "deliverableDescriptionLabel": "Description",
+    "deliverableDescriptionPlaceholder": "Describe what you are submitting, how it meets the requirements, and any notes for the client...",
+    "deliverableDescriptionRequired": "Please describe your deliverable",
+    "deliverableLinksLabel": "Links",
+    "deliverableLinksPlaceholder": "https://drive.google.com/...\nhttps://figma.com/...",
+    "deliverableLinksHint": "Add links to files, previews, or demos (one per line or comma-separated)",
+    "approveDeliveryTitle": "Approve Delivery",
+    "approveDeliveryDescription": "Once you approve, funds will be released to the freelancer. This action cannot be undone.",
+    "approveDeliveryButton": "Approve & Release Funds",
+    "approvingDelivery": "Approving...",
+    "deliveryApproved": "Delivery approved! Funds released to freelancer.",
+    "viewDeliverable": "View Deliverable",
+    "fixAssignmentTitle": "Assignment Required",
+    "fixAssignmentDescription": "The application was accepted but the freelancer needs to be assigned to start work. Click below to complete the assignment.",
+    "fixAssignmentButton": "Assign Freelancer & Start Work",
+    "assigningFreelancer": "Assigning...",
+    "freelancerAssigned": "Freelancer assigned! Work can now begin."
+  }
+}

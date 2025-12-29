@@ -1,0 +1,1344 @@
+{
+  "common": {
+    "loading": "로딩 중...",
+    "cancel": "취소",
+    "confirm": "확인",
+    "save": "저장",
+    "delete": "삭제",
+    "close": "닫기",
+    "appName": "품앗이",
+    "next": "다음",
+    "back": "이전",
+    "previous": "이전",
+    "error": "데이터를 불러오는 중 오류가 발생했습니다.",
+    "submit": "제출",
+    "reset": "초기화",
+    "processing": "처리 중...",
+    "copy": "복사",
+    "copied": "복사됨!",
+    "viewTx": "트랜잭션 보기",
+    "expired": "마감됨",
+    "timeRemaining": "{time} 남음",
+    "active": "진행중",
+    "memberSince": "{date}부터 활동",
+    "chains": "체인",
+    "refresh": "새로고침",
+    "optional": "선택사항"
+  },
+  "wallet": {
+    "connect": "지갑 연결",
+    "connecting": "연결 중...",
+    "connectRequired": "이 페이지를 보려면 지갑을 연결해주세요.",
+    "disconnect": "연결 해제",
+    "disconnecting": "연결 해제 중...",
+    "initializing": "초기화 중...",
+    "copyAddress": "주소 복사",
+    "copied": "복사됨!",
+    "viewOnExplorer": "탐색기에서 보기",
+    "switchNetwork": "네트워크 전환",
+    "selectNetwork": "전환할 네트워크를 선택하세요",
+    "minting": "발행 중...",
+    "switching": "전환 중...",
+    "noNetworks": "네트워크가 설정되지 않았습니다"
+  },
+  "nav": {
+    "jobs": "일자리",
+    "applications": "지원내역",
+    "disputes": "분쟁",
+    "profile": "프로필"
+  },
+  "navbar": {
+    "settings": "설정",
+    "appConfiguration": "앱 설정",
+    "status": "상태",
+    "configured": "설정됨",
+    "incomplete": "미완료",
+    "mode": "모드",
+    "defaults": "기본값",
+    "custom": "사용자 정의",
+    "networks": "네트워크",
+    "missingConfig": "누락된 설정:",
+    "andMore": "...그리고 {count}개 더",
+    "openSettings": "설정 열기"
+  },
+  "hero": {
+    "badge": "VeryChain 기반 P2P 마켓플레이스",
+    "title": "신뢰 있는 거래",
+    "titleHighlight": "품앗이로",
+    "description": "블록체인 기반 신뢰 시스템과 스마트 계약으로 안전하고 공정한 P2P 서비스 거래를 경험하세요.",
+    "findJobs": "일자리 찾기",
+    "postJob": "일자리 등록하기"
+  },
+  "features": {
+    "title": "왜 품앗이인가요?",
+    "subtitle": "전통적인 품앗이 정신을 현대적인 블록체인 기술로 구현했습니다",
+    "findJobs": {
+      "title": "일자리 찾기",
+      "description": "다양한 분야의 일자리를 탐색하고 지원하세요"
+    },
+    "trustMatching": {
+      "title": "신뢰 기반 매칭",
+      "description": "Shinroe 평판 점수로 신뢰할 수 있는 파트너를 찾으세요"
+    },
+    "fairDisputes": {
+      "title": "공정한 분쟁 해결",
+      "description": "탈중앙화 중재 시스템으로 안전하게 거래하세요"
+    },
+    "escrow": {
+      "title": "스마트 계약 에스크로",
+      "description": "블록체인 기반 결제로 안전하게 보호받으세요"
+    }
+  },
+  "benefits": {
+    "trustScore": "신뢰 점수 기반 매칭으로 안심 거래",
+    "escrow": "스마트 계약 에스크로로 자금 보호",
+    "arbitration": "분쟁 발생 시 공정한 중재",
+    "reputation": "완료 후 상호 평가로 평판 구축",
+    "shinroeIntegration": "Shinroe 신뢰 점수 연동",
+    "shinroeDescription": "Shinroe의 온체인 평판 시스템과 연동하여 신뢰할 수 있는 거래 상대를 찾을 수 있습니다.",
+    "trustScore": "신뢰 점수"
+  },
+  "cta": {
+    "title": "지금 시작하세요",
+    "description": "품앗이에서 새로운 기회를 찾거나, 당신의 재능을 공유하세요.",
+    "getStarted": "시작하기"
+  },
+  "jobs": {
+    "title": "일자리 찾기",
+    "subtitle": "품앗이에서 다양한 일자리를 찾아보세요",
+    "postJob": "일자리 등록",
+    "search": "일자리 검색...",
+    "filter": "필터",
+    "category": "카테고리",
+    "status": "상태",
+    "budget": "예산 (VERY)",
+    "clearFilters": "필터 초기화",
+    "apply": "지원하기",
+    "viewDetails": "상세 보기",
+    "noJobs": "일자리가 없습니다",
+    "noJobsDescription": "조건에 맞는 일자리를 찾지 못했습니다. 필터를 조정하거나 새로운 일자리를 등록해보세요.",
+    "resetFilters": "필터 초기화",
+    "createNew": "새 일자리 등록"
+  },
+  "jobList": {
+    "gridView": "그리드 보기",
+    "listView": "목록 보기",
+    "empty": {
+      "title": "일자리가 없습니다",
+      "message": "현재 조건에 맞는 일자리가 없습니다. 필터를 변경하거나 나중에 다시 확인해주세요."
+    }
+  },
+  "jobCard": {
+    "applicants": "{count}명 지원"
+  },
+  "jobStatus": {
+    "open": "모집중",
+    "in_progress": "진행중",
+    "delivered": "제출됨",
+    "completed": "완료",
+    "disputed": "분쟁중",
+    "cancelled": "취소됨"
+  },
+  "jobCategory": {
+    "translation": "번역",
+    "design": "디자인",
+    "writing": "글쓰기",
+    "development": "개발",
+    "tutoring": "튜터링",
+    "data_entry": "데이터 입력",
+    "delivery": "배달",
+    "misc": "기타"
+  },
+  "postJob": {
+    "title": "일자리 등록하기",
+    "steps": {
+      "basics": "기본 정보",
+      "details": "상세 정보",
+      "payment": "결제",
+      "review": "확인"
+    },
+    "basics": {
+      "title": "기본 정보",
+      "jobTitle": "제목",
+      "jobTitlePlaceholder": "예: 한영 번역 작업",
+      "category": "카테고리",
+      "selectCategory": "카테고리 선택",
+      "description": "설명",
+      "descriptionPlaceholder": "작업 내용을 상세히 설명해주세요..."
+    },
+    "details": {
+      "title": "상세 정보",
+      "deadline": "마감일",
+      "milestones": "마일스톤",
+      "addMilestone": "마일스톤 추가",
+      "milestoneName": "마일스톤 이름",
+      "milestoneAmount": "금액",
+      "milestoneDeadline": "마감일"
+    },
+    "payment": {
+      "title": "결제 설정",
+      "totalBudget": "총 예산",
+      "paymentType": "지불 방식",
+      "fullPayment": "전액 지급",
+      "milestonePayment": "마일스톤 지급",
+      "escrowInfo": "작업이 승인될 때까지 자금은 에스크로에 보관됩니다"
+    },
+    "review": {
+      "title": "확인 및 등록",
+      "summary": "작업 요약",
+      "termsAgreement": "품앗이 이용약관에 동의합니다",
+      "post": "등록하기",
+      "posting": "등록 중..."
+    }
+  },
+  "jobDetail": {
+    "title": "일자리 상세",
+    "postedBy": "의뢰인",
+    "deadline": "마감일",
+    "budget": "예산",
+    "status": "상태",
+    "description": "설명",
+    "milestones": "마일스톤",
+    "applications": "지원자",
+    "timeline": "타임라인",
+    "applyNow": "지원하기",
+    "alreadyApplied": "이미 지원함",
+    "applicationSubmitted": "지원이 성공적으로 제출되었습니다",
+    "viewApplications": "지원자 보기",
+    "acceptApplication": "지원 수락",
+    "startWork": "작업 시작",
+    "submitDelivery": "결과물 제출",
+    "reviewDelivery": "결과물 검토",
+    "approveDelivery": "결과물 승인",
+    "requestRevision": "수정 요청",
+    "raiseDispute": "분쟁 제기",
+    "relatedJob": "관련 작업"
+  },
+  "applications": {
+    "title": "지원 내역",
+    "subtitle": "나의 지원 현황을 확인하세요",
+    "empty": "지원 내역이 없습니다",
+    "emptyDescription": "관심있는 일자리에 지원해보세요.",
+    "browseJobs": "일자리 찾기",
+    "status": "상태",
+    "appliedOn": "지원일",
+    "viewJob": "일자리 보기"
+  },
+  "applicationStatus": {
+    "pending": "대기중",
+    "accepted": "수락됨",
+    "rejected": "거절됨"
+  },
+  "applicationsList": {
+    "noApplicants": "아직 지원자가 없습니다.",
+    "noFilterMatch": "필터 조건에 맞는 지원자가 없습니다.",
+    "count": "{count}건",
+    "filter": {
+      "all": "전체",
+      "status": "상태",
+      "sort": "정렬"
+    },
+    "sort": {
+      "newest": "최신순",
+      "oldest": "오래된순",
+      "trustHighest": "신뢰도 높은순",
+      "trustLowest": "신뢰도 낮은순"
+    }
+  },
+  "applicationCard": {
+    "noCoverLetter": "자기소개서가 없습니다.",
+    "portfolioCount": "포트폴리오 {count}개",
+    "reject": "거절",
+    "hire": "채용하기"
+  },
+  "hireModal": {
+    "title": "채용 확인",
+    "description": "이 프리랜서를 채용하시겠습니까?",
+    "error": "채용 처리에 실패했습니다.",
+    "contractTerms": "계약 조건",
+    "job": "일자리",
+    "budget": "예산",
+    "estimatedTime": "예상 기간",
+    "escrowWarning": "⚠️ 채용이 확정되면 예산이 에스크로에 잠기며, 작업 완료 후 프리랜서에게 지급됩니다.",
+    "confirm": "채용 확정",
+    "processing": "트랜잭션 처리 중...",
+    "pleaseWait": "잠시만 기다려주세요.",
+    "startChat": "채팅 시작",
+    "success": {
+      "title": "채용 완료!",
+      "message": "프리랜서에게 알림이 전송되었습니다. VeryChat으로 작업 세부사항을 논의하세요."
+    }
+  },
+  "applyModal": {
+    "title": "지원하기",
+    "description": "{jobTitle}에 지원합니다. 아래 정보를 작성해주세요.",
+    "coverLetter": "자기소개서",
+    "coverLetterPlaceholder": "왜 이 일을 하고 싶은지, 관련 경험이 있는지 등을 작성해주세요...",
+    "characterCount": "{current}/{max}자 (최소 {min}자)",
+    "proposedTimeline": "예상 작업 기간",
+    "proposedTimelinePlaceholder": "예: 일주일 내 완료 가능",
+    "portfolioLinks": "포트폴리오 링크",
+    "portfolioLinksPlaceholder": "https://...",
+    "addLink": "링크 추가",
+    "termsAgreement": "지원 조건과 에스크로 정책에 동의합니다. 클라이언트가 수락하면 계약이 시작됩니다.",
+    "submit": "지원하기",
+    "submitting": "제출 중...",
+    "invalidUrl": "유효한 URL을 입력해주세요.",
+    "submitError": "지원서 제출에 실패했습니다.",
+    "toastSuccess": "지원서가 성공적으로 제출되었습니다!"
+  },
+  "disputes": {
+    "title": "분쟁",
+    "subtitle": "분쟁을 관리하고 해결하세요",
+    "disputeId": "분쟁 #{id}",
+    "relatedJob": "관련 작업",
+    "client": "클라이언트",
+    "freelancer": "프리랜서",
+    "evidenceDeadline": "증거 제출 마감",
+    "votingDeadline": "투표 마감",
+    "createdAt": "분쟁 제기일: {date}",
+    "submitEvidence": "증거 제출",
+    "castVote": "투표하기",
+    "resolution": "결정",
+    "noDisputes": "분쟁이 없습니다",
+    "noDisputesDescription": "진행 중이거나 완료된 분쟁이 없습니다.",
+    "count": "{count}개 분쟁",
+    "tabs": {
+      "myDisputes": "내 분쟁",
+      "arbitration": "중재"
+    },
+    "filter": {
+      "all": "전체",
+      "evidence": "증거 수집 중",
+      "voting": "투표 중",
+      "resolved": "해결됨"
+    },
+    "role": {
+      "asClient": "클라이언트로서",
+      "asFreelancer": "프리랜서로서"
+    },
+    "browseJobs": "작업 둘러보기"
+  },
+  "disputeStatus": {
+    "evidence": "증거 제출 중",
+    "voting": "투표 중",
+    "resolved": "해결됨"
+  },
+  "voteDecision": {
+    "full_to_client": "클라이언트에게 전액 환불",
+    "full_to_freelancer": "프리랜서에게 전액 지급",
+    "split": "50/50 분할"
+  },
+  "arbitration": {
+    "title": "중재 대시보드",
+    "subtitle": "분쟁 해결을 돕고 보상을 받으세요",
+    "register": "중재자 되기",
+    "requirements": "자격 요건",
+    "minScore": "최소 Shinroe 점수: {score}",
+    "minStake": "최소 스테이킹: {amount} VERY",
+    "pendingCases": "진행 중인 사건",
+    "completedCases": "완료된 사건",
+    "earnings": "총 수익",
+    "accuracy": "정확도",
+    "stake": "스테이킹 금액",
+    "registerForm": {
+      "title": "중재자 등록",
+      "stakeAmount": "스테이킹 금액",
+      "stakeDescription": "중재자가 되려면 VERY 토큰을 스테이킹하세요. 높은 스테이킹은 우선권을 높입니다.",
+      "register": "중재자로 등록",
+      "registering": "등록 중..."
+    }
+  },
+  "profile": {
+    "title": "프로필",
+    "copyAddress": "주소 복사",
+    "editProfile": "프로필 수정",
+    "arbitrator": "중재자",
+    "memberSince": "{date}부터 활동",
+    "stats": {
+      "jobsCompleted": "완료한 작업",
+      "jobsPosted": "등록한 작업",
+      "jobsPostedCount": "{count}건 의뢰",
+      "totalEarned": "총 수익",
+      "totalSpent": "총 지출",
+      "successRate": "성공률",
+      "averageRating": "평균 평점",
+      "reviewCount": "{count}개 리뷰",
+      "responseRate": "응답률"
+    },
+    "tabs": {
+      "overview": "개요",
+      "reviews": "리뷰",
+      "history": "이력"
+    },
+    "reviews": {
+      "title": "리뷰",
+      "noReviews": "아직 리뷰가 없습니다",
+      "asClient": "의뢰인으로",
+      "asFreelancer": "프리랜서로",
+      "showLess": "접기",
+      "showMore": "더 보기 ({count}개)"
+    }
+  },
+  "chat": {
+    "title": "메시지",
+    "noMessages": "아직 메시지가 없습니다",
+    "startConversation": "대화를 시작하세요",
+    "typeMessage": "메시지 입력...",
+    "send": "전송",
+    "unread": "읽지 않음",
+    "authRequired": "채팅을 사용하려면 VeryChat 인증이 필요합니다",
+    "connectionRequired": "VeryChat 연결 필요",
+    "openChat": "채팅 열기",
+    "projectChat": "프로젝트 채팅",
+    "emptyMessage": "메시지가 없습니다. 대화를 시작해보세요!",
+    "fileSent": "파일을 보냈습니다",
+    "read": "읽음",
+    "file": "파일",
+    "notifications": {
+      "newMessage": "새 메시지",
+      "from": "{sender}님으로부터"
+    }
+  },
+  "escrow": {
+    "deposit": "에스크로에 입금",
+    "depositing": "입금 중...",
+    "deposited": "입금됨",
+    "release": "자금 해제",
+    "releasing": "해제 중...",
+    "released": "해제됨",
+    "refund": "환불",
+    "refunding": "환불 중...",
+    "refunded": "환불됨",
+    "balance": "에스크로 잔액"
+  },
+  "milestones": {
+    "title": "마일스톤",
+    "pending": "대기중",
+    "inProgress": "진행중",
+    "delivered": "제출됨",
+    "approved": "승인됨",
+    "addMilestone": "마일스톤 추가"
+  },
+  "delivery": {
+    "title": "결과물 제출",
+    "description": "설명",
+    "descriptionPlaceholder": "완료한 작업을 설명해주세요...",
+    "files": "첨부 파일",
+    "addFiles": "파일 추가",
+    "notes": "추가 메모",
+    "notesPlaceholder": "추가 정보가 있으면 입력하세요...",
+    "submit": "제출하기",
+    "submitting": "제출 중..."
+  },
+  "revision": {
+    "title": "수정 요청",
+    "reason": "수정 사유",
+    "reasonPlaceholder": "수정이 필요한 부분을 설명해주세요...",
+    "submit": "수정 요청",
+    "submitting": "요청 중..."
+  },
+  "evidence": {
+    "title": "증거 제출",
+    "description": "설명",
+    "descriptionPlaceholder": "증거를 설명해주세요...",
+    "files": "첨부 파일",
+    "submit": "증거 제출",
+    "submitting": "제출 중..."
+  },
+  "vote": {
+    "title": "투표하기",
+    "decision": "결정",
+    "rationale": "사유",
+    "rationalePlaceholder": "결정 이유를 설명해주세요...",
+    "submit": "투표하기",
+    "submitting": "제출 중..."
+  },
+  "shinroe": {
+    "score": "신뢰 점수",
+    "newUser": "새 사용자",
+    "buildReputation": "작업을 완료하여 평판을 쌓으세요"
+  },
+  "errors": {
+    "userRejected": "사용자가 거래를 취소했습니다",
+    "insufficientFunds": "잔액이 부족합니다",
+    "gasExceeded": "가스 한도를 초과했습니다",
+    "networkError": "네트워크 연결에 문제가 있습니다",
+    "timeout": "거래 시간이 초과되었습니다",
+    "walletNotConnected": "지갑이 연결되어 있지 않습니다",
+    "contractNotLoaded": "컨트랙트를 불러올 수 없습니다",
+    "clientNotReady": "네트워크 클라이언트가 준비되지 않았습니다. 잠시 후 다시 시도해주세요.",
+    "transactionFailed": "트랜잭션이 실패했습니다. 다시 시도해주세요.",
+    "default": "거래 처리 중 오류가 발생했습니다",
+    "fileTooLarge": "파일 크기는 10MB를 초과할 수 없습니다"
+  },
+  "postJobWizard": {
+    "backToList": "일감 목록으로",
+    "title": "일감 올리기",
+    "subtitle": "새로운 일감을 등록하고 에스크로 예치금을 입금하세요",
+    "toastSuccess": "일감이 성공적으로 등록되었습니다!",
+    "steps": {
+      "details": "일감 정보",
+      "payment": "지불 구조",
+      "deposit": "예치금 입금",
+      "success": "완료"
+    },
+    "detailsCard": {
+      "title": "일감 정보",
+      "description": "일감에 대한 기본 정보를 입력하세요"
+    },
+    "milestoneCard": {
+      "title": "마일스톤 설정",
+      "description": "예산을 마일스톤으로 나누어 설정하세요. 각 마일스톤 완료 시 해당 금액이 지급됩니다."
+    },
+    "previous": "이전",
+    "nextStep": "다음 단계",
+    "success": {
+      "title": "일감 등록 완료!",
+      "message": "일감이 성공적으로 등록되었습니다. 지원자가 지원할 때까지 기다려주세요.",
+      "backToList": "일감 목록으로",
+      "viewMyJobs": "내 일감 보기"
+    }
+  },
+  "jobDetailPage": {
+    "backToList": "목록으로 돌아가기",
+    "description": "상세 설명",
+    "jobInfo": "일자리 정보",
+    "budget": "예산",
+    "deadline": "마감일",
+    "remaining": "남음",
+    "postedOn": "등록일",
+    "metadata": "메타데이터",
+    "viewOnIpfs": "IPFS에서 보기",
+    "clientInfo": "의뢰인 정보",
+    "trustScore": "신뢰 점수: 준비 중",
+    "apply": "지원하기",
+    "alreadyApplied": "이미 지원하셨습니다",
+    "applicationAccepted": "지원이 수락되었습니다!",
+    "goToWorkspace": "워크스페이스로 이동",
+    "goToWorkspaceDescription": "이제 이 작업을 시작할 수 있습니다.",
+    "applicationStatus": "상태",
+    "creatorNote": "내 일자리",
+    "cannotApplyOwn": "본인의 일자리에는 지원할 수 없습니다. 아래에서 지원서를 확인하세요.",
+    "applications": {
+      "title": "지원자 목록",
+      "empty": "아직 지원자가 없습니다. 일자리를 공유하여 더 많은 노출을 받으세요!",
+      "appliedAt": "지원일:",
+      "accept": "수락",
+      "reject": "거절",
+      "viewDetails": "상세 보기",
+      "viewProfile": "프로필 보기",
+      "acceptSuccess": "프리랜서가 성공적으로 채용되었습니다!",
+      "rejectSuccess": "지원이 거절되었습니다.",
+      "freelancerHired": "이 일자리에 프리랜서가 채용되었습니다. 더 이상 지원을 받지 않습니다.",
+      "hiredFreelancer": "채용된 프리랜서",
+      "hiringInProgress": "채용 진행 중... 지갑에서 거래를 확인해주세요.",
+      "acceptingApplication": "1/2단계: 지원 수락 중...",
+      "assigningFreelancer": "2/2단계: 프리랜서 배정 중...",
+      "viewWorkspace": "작업 공간 보기",
+      "status": {
+        "pending": "검토 중",
+        "accepted": "수락됨",
+        "rejected": "거절됨"
+      }
+    },
+    "notFound": {
+      "title": "일자리를 찾을 수 없습니다",
+      "message": "요청하신 일자리가 존재하지 않거나 삭제되었습니다.",
+      "backToList": "목록으로 돌아가기"
+    }
+  },
+  "applicationDetail": {
+    "coverLetter": "자기소개서",
+    "noCoverLetter": "자기소개서가 없습니다.",
+    "proposedTimeline": "예상 작업 기간",
+    "portfolioLinks": "포트폴리오 링크",
+    "viewOnIpfs": "IPFS에서 지원서 보기",
+    "viewProfile": "프로필 보기"
+  },
+  "applicationPage": {
+    "title": "지원 상세",
+    "backToJob": "일자리로 돌아가기",
+    "status": "상태",
+    "appliedOn": "지원일",
+    "freelancerInfo": "프리랜서",
+    "jobInfo": "일자리 정보",
+    "proposal": "제안서",
+    "nextSteps": "다음 단계",
+    "goToWorkspace": "작업 공간으로 이동",
+    "workspaceDescription": "작업 공간에서 프리랜서와 소통하고 결과물을 관리하세요.",
+    "notFound": {
+      "title": "지원을 찾을 수 없습니다",
+      "message": "요청하신 지원이 존재하지 않습니다.",
+      "backToJobs": "일자리로 돌아가기"
+    },
+    "statusMessages": {
+      "accepted": "이 지원이 수락되었습니다. 프리랜서가 작업을 진행 중입니다.",
+      "pending": "이 지원은 검토 대기 중입니다.",
+      "rejected": "이 지원이 거절되었습니다."
+    }
+  },
+  "activeJobs": {
+    "title": "진행 중인 일",
+    "asClient": "의뢰인으로서",
+    "asFreelancer": "프리랜서로서",
+    "noClientJobs": "진행 중인 의뢰가 없습니다",
+    "noFreelancerJobs": "진행 중인 작업이 없습니다",
+    "overdue": "마감 지남",
+    "daysRemaining": "{days}일 남음",
+    "workspace": "작업 공간",
+    "browseJobs": "일자리 둘러보기"
+  },
+  "profileWallet": {
+    "title": "지갑 연결 필요",
+    "message": "프로필을 보려면 지갑을 연결해주세요",
+    "connect": "지갑 연결하기"
+  },
+  "editProfile": {
+    "title": "프로필 수정",
+    "images": "프로필 이미지",
+    "displayName": "표시 이름",
+    "displayNamePlaceholder": "이름 또는 닉네임",
+    "jobTitle": "직함",
+    "jobTitlePlaceholder": "예: 풀스택 개발자",
+    "bio": "소개",
+    "bioPlaceholder": "자신을 소개해주세요...",
+    "location": "위치",
+    "locationPlaceholder": "예: 서울, 한국",
+    "website": "웹사이트",
+    "availability": "가용성",
+    "availableNow": "현재 가능",
+    "busy": "바쁨",
+    "unavailable": "불가능",
+    "hourlyRate": "시간당 요금 (USD)",
+    "skills": "기술",
+    "addSkill": "기술 추가",
+    "languages": "언어",
+    "addLanguage": "언어 추가",
+    "socials": "소셜 링크",
+    "save": "프로필 저장",
+    "saved": "프로필이 저장되었습니다!",
+    "saveFailed": "프로필 저장에 실패했습니다",
+    "nameRequired": "표시 이름은 필수입니다"
+  },
+  "verychat": {
+    "title": "VeryChat 인증",
+    "notConfigured": "VeryChat이 설정되지 않았습니다",
+    "verified": "VeryChat 인증됨",
+    "disconnect": "연결 해제",
+    "handlePlaceholder": "@사용자_핸들",
+    "handleHint": "VeryChat 핸들을 입력하여 소유권을 인증하세요",
+    "codeSent": "{handle}로 인증 코드가 전송되었습니다",
+    "codePlaceholder": "6자리 코드",
+    "resend": "새 코드 받기",
+    "verifySuccess": "VeryChat 인증에 성공했습니다!",
+    "verifyFailed": "인증에 실패했습니다"
+  },
+  "arbitrationDashboard": {
+    "title": "중재자 대시보드",
+    "notRegistered": {
+      "title": "중재자 등록 필요",
+      "message": "분쟁 중재에 참여하려면 먼저 중재자로 등록해야 합니다. 일정 금액의 VERY 토큰을 스테이킹하고, Shinroe 점수가 충분해야 합니다.",
+      "register": "중재자 등록하기"
+    },
+    "pendingDisputes": "투표 대기 중인 분쟁",
+    "noDisputes": "현재 투표할 수 있는 분쟁이 없습니다."
+  },
+  "arbitratorRegister": {
+    "title": "중재자 등록",
+    "subtitle": "분쟁 해결에 참여하세요",
+    "steps": {
+      "eligibility": "자격 확인",
+      "stake": "스테이킹",
+      "guidelines": "가이드라인",
+      "complete": "완료"
+    },
+    "eligibility": {
+      "title": "자격 확인",
+      "description": "중재자가 되기 위한 Shinroe 점수를 확인합니다.",
+      "myScore": "내 Shinroe 점수",
+      "minRequired": "최소 필요 점수: {score}",
+      "eligible": "자격 요건을 충족합니다!",
+      "ineligible": "Shinroe 점수가 부족합니다. 더 많은 활동을 통해 점수를 올려주세요."
+    },
+    "stake": {
+      "title": "토큰 스테이킹",
+      "description": "중재자 활동을 위해 VERY 토큰을 스테이킹합니다.",
+      "amount": "스테이킹 금액 (VERY)",
+      "minRequired": "최소 {amount} VERY 필요",
+      "warning": "스테이킹된 토큰은 부적절한 판정 시 일부가 슬래싱될 수 있습니다. 정확한 판정을 통해 추가 보상을 받으세요."
+    },
+    "guidelines": {
+      "title": "중재자 가이드라인",
+      "responsibilities": {
+        "title": "중재자 책임",
+        "items": [
+          "공정하고 객관적인 판단을 내려야 합니다",
+          "양측의 증거를 꼼꼼히 검토해야 합니다",
+          "마감 기한 내에 투표해야 합니다",
+          "결정에 대한 명확한 근거를 제시해야 합니다"
+        ]
+      },
+      "rewardsAndPenalties": {
+        "title": "보상 및 페널티",
+        "items": [
+          "정확한 판정: 분쟁 금액의 일부를 보상으로 수령",
+          "부정확한 판정: 스테이킹 토큰의 일부 슬래싱",
+          "투표 미참여: 경고 및 반복 시 자격 박탈"
+        ]
+      },
+      "agreement": "위 가이드라인을 읽었으며 중재자로서의 책임을 이해하고 동의합니다.",
+      "registering": "등록 중...",
+      "register": "등록 완료"
+    },
+    "complete": {
+      "title": "등록 완료!",
+      "message": "중재자로 등록되었습니다. 이제 분쟁 투표에 참여할 수 있습니다.",
+      "goToDashboard": "대시보드로 이동"
+    }
+  },
+  "scoreBadge": {
+    "points": "{score}점",
+    "tier": "{tier} 등급 ({score}점)",
+    "endorsements": "보증 수: {count}개",
+    "airdrops": "에어드롭 수령: {count}회",
+    "lastUpdated": "마지막 업데이트: {date}",
+    "clickToView": "클릭하여 Shinroe 프로필 보기"
+  },
+  "reviewForm": {
+    "title": "리뷰 작성",
+    "description": "{jobTitle}에 대한 리뷰를 남겨주세요",
+    "rating": "평점",
+    "ratings": {
+      "poor": "별로예요",
+      "fair": "그저그래요",
+      "good": "보통이에요",
+      "veryGood": "좋아요",
+      "excellent": "최고예요"
+    },
+    "comment": "리뷰 내용",
+    "commentPlaceholder": "작업에 대한 솔직한 리뷰를 남겨주세요 (최소 10자)",
+    "reviewee": "대상:",
+    "submit": "리뷰 제출",
+    "submitting": "제출 중..."
+  },
+  "workspace": {
+    "notFound": "일자리를 찾을 수 없습니다",
+    "backToList": "목록으로 돌아가기",
+    "noPermission": "이 일자리에 대한 권한이 없습니다",
+    "quickActions": "빠른 작업",
+    "submitDelivery": "결과물 제출",
+    "approve": "승인",
+    "requestRevision": "수정 요청",
+    "raiseDispute": "분쟁 제기",
+    "tabs": {
+      "overview": "개요",
+      "submitDelivery": "제출",
+      "reviewDelivery": "검토",
+      "timeline": "타임라인"
+    }
+  },
+  "disputePage": {
+    "title": "분쟁 상세",
+    "submittedEvidence": "제출된 증거",
+    "noEvidence": "제출된 증거 없음",
+    "viewEvidence": "{party} 증거 보기",
+    "notFound": {
+      "title": "분쟁을 찾을 수 없습니다",
+      "message": "요청하신 분쟁이 존재하지 않거나 삭제되었습니다.",
+      "backToList": "일자리 목록으로"
+    }
+  },
+  "profilePage": {
+    "notFound": "프로필을 찾을 수 없습니다",
+    "checkAddress": "주소를 확인해주세요: {address}",
+    "tabs": {
+      "reviews": "리뷰 ({count})",
+      "posted": "등록한 일감 ({count})",
+      "completed": "완료한 일감 ({count})"
+    },
+    "noPostedJobs": "등록한 일감이 없습니다",
+    "noCompletedJobs": "완료한 일감이 없습니다"
+  },
+  "arbitratorStats": {
+    "title": "내 중재자 현황",
+    "casesHandled": "처리한 분쟁",
+    "accuracy": "정확도",
+    "totalEarnings": "총 수익",
+    "staking": "스테이킹",
+    "bonusInfo": "정확도가 80% 이상이면 보너스 보상을 받습니다."
+  },
+  "disputeCard": {
+    "job": "작업",
+    "vs": "vs",
+    "daysRemaining": "{days}일 남음",
+    "hoursRemaining": "{hours}시간 남음",
+    "votesCount": "{current}/{total} 투표",
+    "vote": "투표하기",
+    "viewDetails": "상세 보기"
+  },
+  "disputeVotes": {
+    "title": "투표 현황",
+    "noVotes": "아직 투표가 없습니다.",
+    "finalDecision": "최종 결정"
+  },
+  "disputeTimeline": {
+    "title": "타임라인",
+    "created": "분쟁 제기됨",
+    "createdDescription": "분쟁이 시작되었습니다",
+    "evidenceDeadline": "증거 제출 마감",
+    "evidenceInProgress": "증거 제출 진행중",
+    "evidenceCompleted": "증거 제출 완료",
+    "voting": "투표 진행",
+    "votesCompleted": "{count}명 투표 완료",
+    "resolved": "결정 완료"
+  },
+  "voteForm": {
+    "title": "투표",
+    "description": "증거를 검토하고 결정을 내려주세요.",
+    "voteComplete": "투표 완료",
+    "voteCompleteDescription": "이 분쟁에 대한 투표를 완료하셨습니다.",
+    "jobInfo": "작업 정보",
+    "submittedEvidence": "제출된 증거",
+    "viewClientEvidence": "클라이언트 증거 보기",
+    "noClientEvidence": "클라이언트 증거 없음",
+    "viewFreelancerEvidence": "프리랜서 증거 보기",
+    "noFreelancerEvidence": "프리랜서 증거 없음",
+    "decision": "결정",
+    "rationale": "결정 근거",
+    "rationalePlaceholder": "왜 이런 결정을 내렸는지 근거를 작성해주세요...",
+    "rationaleLength": "{current}/{max}자 (최소 {min}자)",
+    "error": "투표에 실패했습니다.",
+    "submitting": "제출 중...",
+    "submit": "투표하기"
+  },
+  "evidenceForm": {
+    "title": "증거 제출",
+    "description": "증거 설명",
+    "descriptionPlaceholder": "증거에 대한 설명을 상세히 작성해주세요. 시간순으로 정리하면 도움이 됩니다...",
+    "descriptionLength": "{current}/{max}자 (최소 {min}자)",
+    "attachments": "첨부 파일",
+    "daysHoursRemaining": "{days}일 {hours}시간 남음",
+    "hoursMinutesRemaining": "{hours}시간 {minutes}분 남음",
+    "deadlinePassed": "증거 제출 기한이 지났습니다. 더 이상 증거를 제출할 수 없습니다.",
+    "alreadySubmitted": "이미 증거를 제출하셨습니다. 추가 증거가 있다면 업데이트할 수 있습니다.",
+    "invalidUrl": "유효한 URL을 입력해주세요.",
+    "error": "증거 제출에 실패했습니다.",
+    "submitting": "제출 중...",
+    "submit": "증거 제출"
+  },
+  "raiseDisputeModal": {
+    "title": "분쟁 제기",
+    "description": "{jobTitle}에 대한 분쟁을 제기합니다. 신중하게 결정해주세요.",
+    "warning": "분쟁이 제기되면 중재자가 배정되어 양측의 증거를 검토합니다. 거짓 분쟁은 페널티가 부과될 수 있습니다.",
+    "reason": "분쟁 사유",
+    "reasonPlaceholder": "예: 합의된 결과물이 제공되지 않음",
+    "reasonLength": "{current}/{max}자 (최소 {min}자)",
+    "detailedDescription": "상세 설명",
+    "descriptionPlaceholder": "분쟁의 배경과 경위를 상세히 설명해주세요...",
+    "descriptionLength": "{current}/{max}자 (최소 {min}자)",
+    "evidenceFiles": "증거 파일 (선택)",
+    "evidenceHelp": "스크린샷, 대화 내용, 계약 문서 등의 링크를 추가하세요.",
+    "confirmation": "분쟁 제기 시 에스크로 자금이 동결되며, 중재자 결정에 따라 배분됨을 이해하고 동의합니다.",
+    "invalidUrl": "유효한 URL을 입력해주세요.",
+    "error": "분쟁 제기에 실패했습니다.",
+    "submitting": "제출 중...",
+    "submit": "분쟁 제기"
+  },
+  "escrowDeposit": {
+    "jobSummary": "일감 요약",
+    "title": "제목",
+    "category": "카테고리",
+    "deadline": "마감일",
+    "paymentType": "지불 방식",
+    "fullPayment": "전액 지급",
+    "milestonePayment": "마일스톤 지급",
+    "milestones": "마일스톤",
+    "depositTitle": "예치금 입금",
+    "jobBudget": "일감 예산",
+    "platformFee": "플랫폼 수수료 ({percentage}%)",
+    "totalAmount": "총 입금액",
+    "balance": "잔액",
+    "insufficientBalance": "잔액 부족",
+    "confirmingTx": "트랜잭션 확인 중...",
+    "uploadingAndProcessing": "IPFS 업로드 및 트랜잭션 처리 중...",
+    "successMessage": "일감이 성공적으로 등록되었습니다!",
+    "walletRequired": "지갑 연결 필요",
+    "completed": "완료",
+    "depositButton": "예치금 입금"
+  },
+  "milestoneBuilder": {
+    "title": "마일스톤 설정",
+    "totalBudget": "총 예산: {amount} VERY",
+    "balanced": "균형 맞음",
+    "titleRequired": "제목 필수",
+    "amountRequired": "금액 필수",
+    "deadlineRequired": "마감일 필수",
+    "deadlineBeforeJob": "전체 마감일 이전이어야 합니다",
+    "unallocated": "{amount} VERY 미할당",
+    "exceeded": "{amount} VERY 초과",
+    "milestoneTitle": "마일스톤 제목",
+    "milestoneTitlePlaceholder": "마일스톤 제목",
+    "amount": "금액",
+    "selectDeadline": "마감일 선택",
+    "addMilestone": "마일스톤 추가",
+    "remainingBudget": "남은 예산: {amount} VERY",
+    "validation": {
+      "atLeastOne": "마일스톤을 최소 1개 이상 추가해주세요",
+      "totalMismatch": "마일스톤 금액 합계가 총 예산과 일치해야 합니다",
+      "milestoneTitle": "마일스톤 {number}: 제목 필수",
+      "milestoneAmount": "마일스톤 {number}: 금액 필수",
+      "milestoneDeadline": "마일스톤 {number}: 마감일 필수",
+      "milestoneAfterJob": "마일스톤 {number}: 마감일이 전체 마감일 이후입니다"
+    }
+  },
+  "jobCategories": {
+    "translation": "번역",
+    "design": "디자인",
+    "writing": "글쓰기",
+    "development": "개발",
+    "tutoring": "튜터링",
+    "data_entry": "데이터 입력",
+    "delivery": "배달",
+    "misc": "기타"
+  },
+  "postJobForm": {
+    "titleLabel": "제목 *",
+    "titlePlaceholder": "일감 제목을 입력하세요",
+    "categoryLabel": "카테고리 *",
+    "categoryPlaceholder": "카테고리 선택",
+    "descriptionLabel": "설명 *",
+    "descriptionPlaceholder": "일감에 대한 상세 설명을 입력하세요 (마크다운 지원)",
+    "budgetLabel": "예산 *",
+    "deadlineLabel": "마감일 *",
+    "selectDate": "날짜 선택",
+    "paymentTypeLabel": "지불 방식 *",
+    "fullPayment": "전액 지급",
+    "milestonePayment": "마일스톤 지급",
+    "requirementsLabel": "요구사항 (선택)",
+    "requirementsPlaceholder": "지원자에게 요구하는 사항을 입력하세요",
+    "nextStep": "다음 단계",
+    "validation": {
+      "titleLength": "제목은 5-100자 사이여야 합니다",
+      "categoryRequired": "카테고리를 선택해주세요",
+      "descriptionLength": "설명은 20-2000자 사이여야 합니다",
+      "budgetMin": "예산은 최소 {amount} VERY 이상이어야 합니다",
+      "deadlineFuture": "마감일은 미래 날짜여야 합니다"
+    }
+  },
+  "statusTimeline": {
+    "title": "타임라인",
+    "noEvents": "이벤트가 없습니다",
+    "timelineTitle": "작업 타임라인",
+    "milestone": "마일스톤 #{id}",
+    "events": {
+      "created": "일자리 생성됨",
+      "freelancerAssigned": "프리랜서 배정됨",
+      "workStarted": "작업 시작",
+      "deliverySubmitted": "납품물 제출됨",
+      "deliveryApproved": "납품 승인됨",
+      "revisionRequested": "수정 요청됨",
+      "completed": "완료됨",
+      "disputed": "분쟁 발생",
+      "cancelled": "취소됨"
+    }
+  },
+  "revisionRequest": {
+    "title": "수정 요청",
+    "description": "프리랜서에게 수정을 요청합니다. 구체적인 수정 사항을 작성해주세요.",
+    "reasonLabel": "수정 요청 사유 *",
+    "reasonPlaceholder": "수정이 필요한 이유를 설명해주세요 (최소 10자)",
+    "minChars": "{count}/10 자 이상",
+    "feedbackLabel": "구체적인 피드백",
+    "feedbackPlaceholder": "수정해야 할 부분과 원하는 결과물에 대해 자세히 설명해주세요 (선택)",
+    "noteLabel": "참고:",
+    "noteText": "수정 요청은 프리랜서에게 알림으로 전송됩니다. 합리적인 수정 요청이 아닌 경우 분쟁 조정 시 불리하게 작용할 수 있습니다.",
+    "requesting": "요청 중...",
+    "submitButton": "수정 요청"
+  },
+  "milestoneProgress": {
+    "title": "마일스톤",
+    "noMilestones": "이 일자리는 마일스톤이 없습니다",
+    "progressTitle": "마일스톤 진행 상황",
+    "completed": "{completed}/{total} 완료",
+    "paidAmount": "{amount} VERY 지급됨",
+    "totalAmount": "총 {amount} VERY",
+    "daysLeft": "{days}일 남음",
+    "status": {
+      "pending": "대기중",
+      "inProgress": "진행중",
+      "delivered": "제출됨",
+      "approved": "완료"
+    }
+  },
+  "deliveryReview": {
+    "noDeliveries": "아직 납품물이 없습니다",
+    "noDeliveriesDescription": "프리랜서가 작업을 완료하면 여기에 표시됩니다.",
+    "deliveryTitle": "납품물 #{id}",
+    "submittedOn": "제출일: {date}",
+    "descriptionLabel": "설명",
+    "freelancerNotes": "프리랜서 메모",
+    "attachedFiles": "첨부 파일",
+    "fileNumber": "파일 {number}",
+    "approve": "승인",
+    "requestRevision": "수정 요청",
+    "revisionRequested": "수정 요청됨",
+    "status": {
+      "pending": "검토 대기",
+      "approved": "승인됨",
+      "revisionRequested": "수정 요청"
+    }
+  },
+  "deliveryForm": {
+    "title": "납품하기",
+    "description": "작업물을 제출하여 납품을 완료하세요",
+    "descriptionLabel": "납품물 설명 *",
+    "descriptionPlaceholder": "작업 결과물에 대한 설명을 입력하세요",
+    "filesLabel": "파일 업로드 *",
+    "dragOrClick": "파일을 드래그하거나 클릭하여 업로드",
+    "selectFiles": "파일 선택",
+    "notesLabel": "추가 메모",
+    "notesPlaceholder": "의뢰인에게 전달할 메모 (선택사항)",
+    "submitting": "제출 중...",
+    "submitButton": "납품 제출",
+    "successTitle": "납품 완료!",
+    "successMessage": "의뢰인의 검토를 기다리고 있습니다."
+  },
+  "jobSummary": {
+    "title": "일자리 요약",
+    "budget": "예산",
+    "deadline": "마감일",
+    "createdAt": "등록일",
+    "timeRemaining": "남은 시간",
+    "expired": "마감됨",
+    "client": "의뢰인",
+    "freelancer": "프리랜서"
+  },
+  "demo": {
+    "postJob": {
+      "templates": {
+        "0": {
+          "title": "영문 번역 - 마케팅 브로셔 10페이지",
+          "description": "마케팅 자료 영문 번역을 찾고 있습니다.\n\n작업 범위:\n- 한국어 브로셔 10페이지 영문 번역\n- 제품 소개 및 회사 프로필 포함\n- 전문적인 비즈니스 톤\n\n납품: Word 형식, 영업일 5일",
+          "requirements": "- 원어민 수준 영어\n- 마케팅 번역 경력 2년 이상\n- 빠른 소통 가능",
+          "budget": "50",
+          "category": "translation"
+        },
+        "1": {
+          "title": "테크 스타트업 로고 디자인",
+          "description": "AI 스타트업을 위한 모던하고 미니멀한 로고가 필요합니다.\n\n요구사항:\n- 깔끔하고 확장 가능한 디자인\n- 주요 색상: 블루/퍼플 그라데이션\n- 워드마크 및 아이콘 버전 포함\n- SVG, PNG, AI 형식 납품",
+          "requirements": "- 테크/스타트업 로고 포트폴리오\n- Figma 또는 Adobe 경험\n- 2-3회 수정 포함",
+          "budget": "100",
+          "category": "design"
+        },
+        "2": {
+          "title": "React 프론트엔드 개발자 - 대시보드 UI",
+          "description": "React + TypeScript로 관리자 대시보드를 구축합니다.\n\n기능:\n- CRUD 기능의 사용자 관리 테이블\n- 분석 차트 (recharts/chart.js)\n- 반응형 사이드바 네비게이션\n- 다크/라이트 테마 토글",
+          "requirements": "- React 경력 3년 이상\n- TypeScript 능숙\n- Tailwind CSS 지식\n- Git 워크플로우",
+          "budget": "200",
+          "category": "development"
+        },
+        "3": {
+          "title": "블로그 글 작성 - Web3 주제",
+          "description": "Web3와 블록체인에 대한 블로그 글 3개를 작성합니다.\n\n주제:\n1. DeFi 소개\n2. 초보자를 위한 NFT 설명\n3. 스마트 컨트랙트 활용 사례\n\n각 1500-2000자, SEO 최적화.",
+          "requirements": "- 암호화폐/블록체인 지식\n- SEO 글쓰기 경험\n- 원어민 작성자\n- 참고 링크 포함",
+          "budget": "75",
+          "category": "writing"
+        },
+        "4": {
+          "title": "한국어 과외 - 초급 레벨",
+          "description": "한국어 과외 선생님을 찾습니다.\n\n상세:\n- 1시간씩 10회 수업\n- 초급 레벨 (한글 기초)\n- 회화 중심\n- 유연한 일정 (주말 가능)",
+          "requirements": "- 한국어 원어민\n- 교육 경험\n- 초보자에게 인내심\n- Zoom/Google Meet 가능",
+          "budget": "150",
+          "category": "tutoring"
+        }
+      }
+    },
+    "apply": {
+      "templates": {
+        "0": {
+          "coverLetter": "안녕하세요! 이 프로젝트에 지원하게 되어 기쁩니다.\n\n이 분야에서 5년간 전문 경험이 있습니다. 저의 강점:\n- 품질 높은 빠른 작업\n- 전 과정 명확한 소통\n- 피드백과 수정에 유연함\n\n기대 이상의 결과를 드릴 자신이 있습니다!",
+          "timeline": "5일 (초안 3일 + 검토)",
+          "portfolioLink1": "https://portfolio.example.com/work",
+          "portfolioLink2": "https://linkedin.com/in/demo-profile"
+        },
+        "1": {
+          "coverLetter": "안녕하세요! 귀하의 프로젝트가 눈에 띄었습니다.\n\n이 분야의 배경지식으로 정확히 필요한 것을 제공할 수 있습니다. 비슷한 클라이언트와 일한 경험이 있어 요구사항을 잘 이해합니다.\n\n세부사항을 논의해요 - 바로 시작할 준비가 되어 있습니다!",
+          "timeline": "1주일, 마일스톤 체크인 포함",
+          "portfolioLink1": "https://behance.net/demo-portfolio",
+          "portfolioLink2": "https://github.com/demo-user"
+        },
+        "2": {
+          "coverLetter": "이 기회에 감사드립니다!\n\n귀하와 같은 프로젝트를 전문으로 하며 5점 평점으로 50개 이상의 유사 작업을 완료했습니다. 저의 프로세스:\n1. 초기 상담\n2. 48시간 내 첫 초안\n3. 만족할 때까지 수정\n\n협업을 기대합니다!",
+          "timeline": "영업일 3-4일",
+          "portfolioLink1": "https://dribbble.com/demo",
+          "portfolioLink2": "https://portfolio.demo.io"
+        },
+        "3": {
+          "coverLetter": "안녕하세요! 이 프로젝트를 돕고 싶습니다.\n\n저의 관련 경험:\n- 100개 이상 완료 프로젝트\n- 귀하의 업계 전문성\n- 빠른 응답 시간 (2시간 이내)\n\n품질과 고객 만족을 최우선으로 합니다.",
+          "timeline": "마감일 내 완료 (여유 포함)",
+          "portfolioLink1": "https://notion.so/demo-portfolio",
+          "portfolioLink2": "https://twitter.com/demo_work"
+        },
+        "4": {
+          "coverLetter": "좋은 프로젝트입니다! 제가 적합합니다.\n\n저를 차별화하는 점:\n- 이 니치에 깊은 전문성\n- 투명한 진행 업데이트\n- 무제한 수정 정책\n\n포트폴리오를 확인해 보세요 - 지속적으로 프리미엄 작업을 제공합니다.",
+          "timeline": "6일, 매일 업데이트 포함",
+          "portfolioLink1": "https://mysite.example.com",
+          "portfolioLink2": "https://youtube.com/@demo-channel"
+        }
+      }
+    },
+    "evidence": {
+      "templates": {
+        "0": {
+          "description": "증거 요약:\n\n1. 작업 기한 내 완료\n- 마감일 내 납품\n- 모든 요구사항 충족\n\n2. 커뮤니케이션 기록\n- 24시간 내 응답\n- 모든 피드백 반영\n\n3. 품질 기준\n- 동료 검토 완료\n- 업계 표준 충족\n\n첨부 파일 참조.",
+          "fileLink1": "https://drive.google.com/file/d/chat-logs-001",
+          "fileLink2": "https://drive.google.com/file/d/deliverables-001"
+        },
+        "1": {
+          "description": "분쟁 증거:\n\n이벤트 타임라인:\n- 1일차: 프로젝트 시작\n- 3일차: 첫 초안 제출\n- 4일차: 수정 요청\n- 5일차: 최종 버전 납품\n\n모든 작업이 합의대로 완료되었습니다. 전 과정에서 클라이언트와 소통했습니다.",
+          "fileLink1": "https://drive.google.com/file/d/timeline-evidence",
+          "fileLink2": "https://drive.google.com/file/d/message-history"
+        },
+        "2": {
+          "description": "지원 문서:\n\n1. 합의된 계약: 링크 1 참조\n2. 납품된 파일: 링크 2 참조\n\n명시된 대로 모든 의무를 이행했습니다. 작업은 합의된 사양을 충족하며 일정대로 납품되었습니다.",
+          "fileLink1": "https://drive.google.com/file/d/contract-copy",
+          "fileLink2": "https://drive.google.com/file/d/final-delivery"
+        },
+        "3": {
+          "description": "증거 제출:\n\n핵심 포인트:\n- 범위가 명확히 정의됨\n- 모든 마일스톤 완료\n- 클라이언트가 중간 작업 승인\n- 최종 납품이 이유 없이 거부됨\n\n첨부: 스크린샷 및 파일 내보내기.",
+          "fileLink1": "https://drive.google.com/file/d/screenshots",
+          "fileLink2": "https://drive.google.com/file/d/approvals"
+        },
+        "4": {
+          "description": "사례 문서:\n\n사실:\n1. 결제가 에스크로됨\n2. 명시된 대로 작업 납품\n3. 수정 요청 없음\n4. 클라이언트 5일간 무응답\n\n요청: 에스크로된 자금 해제.",
+          "fileLink1": "https://drive.google.com/file/d/delivery-proof",
+          "fileLink2": "https://drive.google.com/file/d/communication-log"
+        }
+      }
+    },
+    "delivery": {
+      "templates": {
+        "0": {
+          "description": "작업 완료!\n\n납품물:\n- 요청된 모든 항목 완료\n- 품질 검토 완료\n- 사양대로 포맷팅\n\n첨부: 사용 준비된 최종 파일.",
+          "notes": "급한 수정은 채팅으로 연락주세요. 24시간 내 응답합니다."
+        },
+        "1": {
+          "description": "프로젝트 납품 보고서:\n\n완료 항목:\n1. 주요 납품물 - 100%\n2. 보조 자료 - 포함\n3. 소스 파일 - 첨부\n\n검토 후 조정이 필요하면 알려주세요!",
+          "notes": "추가 비용 없이 사소한 수정 가능합니다."
+        },
+        "2": {
+          "description": "최종 제출:\n\n논의한 대로 모든 작업을 완료했습니다. 하이라이트:\n- 원래 범위 약간 초과\n- 보너스 자료 추가\n- 사용 사례에 최적화\n\n피드백을 기대합니다!",
+          "notes": "납품물을 함께 살펴보고 싶으시면 통화 가능합니다."
+        },
+        "3": {
+          "description": "납품 완료!\n\n패키지 포함:\n- 주요 납품물 (합의대로)\n- 문서/지침\n- 편집 가능 소스 파일\n\n폴더로 정리되어 있습니다. 명확하지 않은 부분이 있으면 알려주세요.",
+          "notes": "48시간 내 수정 요청 환영합니다."
+        },
+        "4": {
+          "description": "프로젝트 완료:\n\n요약:\n- 모든 요구사항 충족\n- 품질 보증 통과\n- 즉시 사용 준비 완료\n\n이 기회에 감사드립니다. 다시 함께 일하길 기대합니다!",
+          "notes": "향후 프로젝트도 연락주세요. 재방문 고객 할인!"
+        }
+      }
+    },
+    "dispute": {
+      "templates": {
+        "0": {
+          "reason": "납품물 품질이 합의된 기준 미달",
+          "description": "발견된 품질 문제:\n\n1. 작업에 다수 오류\n2. 사양과 불일치\n3. 핵심 구성요소 누락\n\n요청: 재작업 또는 부분 환불.",
+          "fileLink1": "https://drive.google.com/file/d/quality-report",
+          "fileLink2": "https://drive.google.com/file/d/original-contract"
+        },
+        "1": {
+          "reason": "마감일까지 작업 미납품",
+          "description": "일정 위반:\n\n- 합의된 마감일: [날짜]\n- 납품 받지 못함\n- 여러 차례 팔로업 무시됨\n\n요청: 에스크로 자금 전액 환불.",
+          "fileLink1": "https://drive.google.com/file/d/deadline-agreement",
+          "fileLink2": "https://drive.google.com/file/d/message-attempts"
+        },
+        "2": {
+          "reason": "결제 후 프리랜서 무응답",
+          "description": "소통 단절:\n\n- 마지막 응답: 7일 전\n- 진행 상황 업데이트 없음\n- 작업이 미완성으로 보임\n\n요청: 환불 또는 완료 보장.",
+          "fileLink1": "https://drive.google.com/file/d/chat-history",
+          "fileLink2": "https://drive.google.com/file/d/last-update"
+        },
+        "3": {
+          "reason": "범위 변경 미고지",
+          "description": "범위 분쟁:\n\n- 원래 요구사항 첨부\n- 프리랜서가 다른 작업 납품\n- 변경 논의 없음\n\n요청: 원래 범위에 맞는 납품.",
+          "fileLink1": "https://drive.google.com/file/d/requirements-doc",
+          "fileLink2": "https://drive.google.com/file/d/delivered-work"
+        },
+        "4": {
+          "reason": "클라이언트가 완료된 작업 승인 거부",
+          "description": "부당한 거부:\n\n- 모든 요구사항 충족\n- 정시 납품\n- 클라이언트가 범위 외 변경 요구\n\n요청: 완료된 작업에 대한 결제 해제.",
+          "fileLink1": "https://drive.google.com/file/d/completion-proof",
+          "fileLink2": "https://drive.google.com/file/d/scope-document"
+        }
+      }
+    },
+    "vote": {
+      "templates": {
+        "0": {
+          "rationale": "양측 검토 후:\n\n클라이언트: 품질 문제 증거 제시\n프리랜서: 작업 완료 증명\n\n결론: 양측 모두 책임이 있어 50/50 분할이 공정함."
+        },
+        "1": {
+          "rationale": "증거 분석:\n\n- 클라이언트 주장이 잘 문서화됨\n- 프리랜서가 마감일 미충족\n- 커뮤니케이션 기록이 지연 확인\n\n결정: 클라이언트 전액 환불."
+        },
+        "2": {
+          "rationale": "검토 요약:\n\n- 작업이 명시된 대로 납품됨\n- 클라이언트 불만에 증거 부족\n- 범위가 명확히 정의되고 충족됨\n\n결정: 프리랜서 전액 결제."
+        },
+        "3": {
+          "rationale": "사실에 대한 신중한 검토:\n\n- 부분 작업 완료 (70%)\n- 프리랜서가 무응답 됨\n- 일부 가치가 전달됨\n\n결정: 프리랜서 70%, 환불 30%."
+        },
+        "4": {
+          "rationale": "평가:\n\n- 양측이 의사소통 오류에 기여\n- 처음부터 범위가 모호함\n- 어느 쪽도 전적으로 잘못 없음\n\n결정: 동등 분할 권장."
+        }
+      }
+    },
+    "revision": {
+      "templates": {
+        "0": {
+          "reason": "사소한 품질 조정 필요",
+          "feedback": "수정 부탁드립니다:\n\n1. 3페이지 포맷팅 문제 수정\n2. 용어 일관성 업데이트\n3. 톤을 약간 부드럽게\n\n그 외에는 훌륭한 작업입니다!"
+        },
+        "1": {
+          "reason": "요구사항과 완전히 일치하지 않음",
+          "feedback": "수정 필요:\n\n- 색상 체계가 브리프와 다름\n- 모바일 반응형 버전 누락\n- 폰트 크기 조정 필요\n\n원래 요구사항을 참조해주세요."
+        },
+        "2": {
+          "reason": "기술적 오류 발견",
+          "feedback": "발견된 문제:\n\n1. 로그인 기능 버그\n2. API 엔드포인트 잘못된 데이터 반환\n3. iOS에서 모바일 레이아웃 깨짐\n\n수정 후 재테스트 부탁드립니다."
+        },
+        "3": {
+          "reason": "콘텐츠 업데이트 필요",
+          "feedback": "업데이트 부탁드립니다:\n\n- 섹션 2에 더 상세한 내용 필요\n- 오래된 참조 제거\n- 결론 단락 추가\n\n거의 완성입니다!"
+        },
+        "4": {
+          "reason": "요청된 기능 누락",
+          "feedback": "누락된 항목:\n\n1. 다크 모드 토글\n2. 내보내기 기능\n3. 사용자 설정 페이지\n\n이것들은 원래 범위에 있었습니다."
+        }
+      }
+    },
+    "review": {
+      "templates": {
+        "0": {
+          "comment": "훌륭한 작업입니다! 정시에 높은 품질로 납품했습니다. 전 과정에서 소통이 명확했습니다. 향후 프로젝트에도 꼭 다시 고용하고 싶습니다. 강력 추천!",
+          "rating": "5"
+        },
+        "1": {
+          "comment": "전반적으로 좋은 작업입니다. 요구사항을 충족했고 피드백에 반응했습니다. 약간의 지연이 있었지만 잘 소통했습니다. 좋은 경험이었습니다.",
+          "rating": "4"
+        },
+        "2": {
+          "comment": "전문적이고 능숙합니다. 최종 결과가 기대 이상이었습니다. 빠른 턴어라운드와 도움되는 제안. 함께 일하기 즐거웠습니다!",
+          "rating": "5"
+        },
+        "3": {
+          "comment": "괜찮은 작업이지만 여러 번 수정이 필요했습니다. 결국 해결되었습니다. 소통이 더 좋을 수 있었습니다. 평균적인 경험.",
+          "rating": "3"
+        },
+        "4": {
+          "comment": "뛰어납니다! 모든 요구사항을 충족했을 뿐 아니라 추가 가치를 더했습니다. 매우 지식이 풍부하고 인내심 있습니다. 최고 수준의 프리랜서!",
+          "rating": "5"
+        }
+      }
+    },
+    "deliverable": {
+      "templates": {
+        "0": {
+          "title": "최종 디자인 패키지",
+          "description": "완전한 디자인 납품물:\n- Figma 최종 디자인\n- 내보낸 에셋 (SVG, PNG)\n- 스타일 가이드 문서\n\n개발 핸드오프 준비 완료.",
+          "links": "https://figma.com/file/example\nhttps://drive.google.com/folder/assets"
+        },
+        "1": {
+          "title": "번역 완료 - 마케팅 자료",
+          "description": "10페이지 전체 번역 완료:\n- 전문적인 비즈니스 톤 유지\n- 전문 용어 검증\n- 원어민 교정 완료\n\nWord 문서 및 PDF 버전 포함.",
+          "links": "https://drive.google.com/file/translation-final"
+        },
+        "2": {
+          "title": "React 대시보드 - 소스 코드",
+          "description": "전체 소스 코드 납품:\n- React + TypeScript 코드베이스\n- 모든 기능 구현\n- 단위 테스트 포함\n- 설정 지침이 있는 README",
+          "links": "https://github.com/demo/dashboard-project\nhttps://demo-dashboard.vercel.app"
+        },
+        "3": {
+          "title": "블로그 글 - Web3 시리즈",
+          "description": "SEO 최적화된 3개 글:\n1. DeFi 소개 (1,800자)\n2. NFT 초보자 가이드 (2,000자)\n3. 스마트 컨트랙트 설명 (1,750자)\n\n모든 글은 편집 가능한 Google Docs.",
+          "links": "https://docs.google.com/document/d/article-1\nhttps://docs.google.com/document/d/article-2\nhttps://docs.google.com/document/d/article-3"
+        },
+        "4": {
+          "title": "로고 디자인 - 최종 파일",
+          "description": "로고 패키지 포함:\n- 기본 로고 (컬러 + 흑백)\n- 아이콘 버전\n- 소셜 미디어 사이즈\n- 브랜드 가이드라인 PDF\n\n모든 형식: AI, SVG, PNG, PDF",
+          "links": "https://drive.google.com/folder/logo-package"
+        }
+      }
+    }
+  },
+  "workspace": {
+    "title": "작업 공간",
+    "role": {
+      "client": "의뢰인",
+      "freelancer": "프리랜서"
+    },
+    "jobSummary": "작업 요약",
+    "deadline": "마감일",
+    "participants": "참여자",
+    "client": "의뢰인",
+    "freelancer": "프리랜서",
+    "you": "나",
+    "actions": "빠른 작업",
+    "chat": "메시지",
+    "chatDescription": "상대방과 소통하기",
+    "deliverables": "결과물",
+    "deliverablesDescription": "파일 보기 및 관리",
+    "submitWork": "작업 제출",
+    "submitWorkDescription": "완료된 작업 제출하기",
+    "approveWork": "작업 검토",
+    "approveWorkDescription": "결과물 검토 및 승인",
+    "comingSoon": "작업 공간 준비 중",
+    "comingSoonMessage": "메시징, 파일 공유, 마일스톤 추적 등 전체 작업 공간 기능은 개발 중입니다.",
+    "connectWallet": "지갑 연결 필요",
+    "connectWalletMessage": "작업 공간에 접근하려면 지갑을 연결해 주세요.",
+    "jobNotFound": "작업을 찾을 수 없음",
+    "jobNotFoundMessage": "찾으시는 작업이 존재하지 않거나 삭제되었습니다.",
+    "noFreelancer": "프리랜서 미배정",
+    "noFreelancerMessage": "아직 이 작업에 프리랜서가 배정되지 않았습니다. 프리랜서가 고용되면 작업 공간을 사용할 수 있습니다.",
+    "accessDenied": "접근 거부",
+    "accessDeniedMessage": "작업 의뢰인과 선정된 프리랜서만 이 작업 공간에 접근할 수 있습니다.",
+    "backToJob": "작업으로 돌아가기",
+    "jobStatus": {
+      "open": "프리랜서가 배정되었습니다. 작업 시작을 기다리고 있습니다.",
+      "in_progress": "작업 진행 중. 프리랜서의 결과물 제출을 기다리고 있습니다.",
+      "delivered": "결과물이 제출되었습니다. 의뢰인의 검토 및 승인을 기다리고 있습니다.",
+      "completed": "작업 완료! 프리랜서에게 대금이 지급되었습니다.",
+      "disputed": "이 작업은 현재 분쟁 중입니다.",
+      "cancelled": "이 작업이 취소되었습니다."
+    },
+    "submitDeliverableTitle": "결과물 제출",
+    "submitDeliverableDescription": "완료된 작업 링크를 제공해주세요 (IPFS, Google Drive 등)",
+    "deliverableLink": "결과물 링크",
+    "deliverablePlaceholder": "ipfs://... 또는 https://...",
+    "submitDeliverableButton": "결과물 제출",
+    "submittingDeliverable": "제출 중...",
+    "deliverableSubmitted": "결과물이 성공적으로 제출되었습니다!",
+    "approveDeliveryTitle": "결과물 승인",
+    "approveDeliveryDescription": "승인하면 프리랜서에게 대금이 지급됩니다. 이 작업은 취소할 수 없습니다.",
+    "approveDeliveryButton": "승인 및 대금 지급",
+    "approvingDelivery": "승인 중...",
+    "deliveryApproved": "결과물이 승인되었습니다! 프리랜서에게 대금이 지급되었습니다.",
+    "viewDeliverable": "결과물 보기",
+    "fixAssignmentTitle": "배정 필요",
+    "fixAssignmentDescription": "지원이 수락되었지만 프리랜서를 배정해야 작업을 시작할 수 있습니다. 아래 버튼을 눌러 배정을 완료하세요.",
+    "fixAssignmentButton": "프리랜서 배정 및 작업 시작",
+    "assigningFreelancer": "배정 중...",
+    "freelancerAssigned": "프리랜서가 배정되었습니다! 이제 작업을 시작할 수 있습니다.",
+    "uploadingToIPFS": "IPFS에 업로드 중...",
+    "deliverableTitleLabel": "결과물 제목",
+    "deliverableTitlePlaceholder": "예: 최종 디자인 파일",
+    "deliverableTitleRequired": "결과물 제목을 입력해주세요",
+    "deliverableDescriptionLabel": "설명",
+    "deliverableDescriptionPlaceholder": "제출하는 작업에 대해 설명해주세요...",
+    "deliverableDescriptionRequired": "결과물에 대한 설명을 입력해주세요",
+    "deliverableLinksLabel": "링크",
+    "deliverableLinksPlaceholder": "https://drive.google.com/...\nhttps://figma.com/...",
+    "deliverableLinksHint": "파일, 미리보기 또는 데모 링크를 추가하세요 (줄바꿈 또는 쉼표로 구분)"
+  }
+}
