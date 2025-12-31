@@ -1,0 +1,27 @@
+{
+  "network": "verychain",
+  "jobEscrow": {
+    "address": "0x4aafcb744e5a9923640838c4788455b2cc1ebd48",
+    "startBlock": 4151694
+  },
+  "applicationRegistry": {
+    "address": "0x625ab5ca543cde5dea9f9f53137162b30ce39af5",
+    "startBlock": 4151694
+  },
+  "milestoneManager": {
+    "address": "0xb7f3d139128d54e6f994bcf0de88d5da8d1c71d2",
+    "startBlock": 4151694
+  },
+  "reviewRegistry": {
+    "address": "0x2927b1f7c76aa9302621fc3dee30b024ab11d677",
+    "startBlock": 4151694
+  },
+  "arbitrationDAO": {
+    "address": "0xa846e4d57cdb3077ed67e5d792949f7a6ef2a75d",
+    "startBlock": 4151694
+  },
+  "profileRegistry": {
+    "address": "0x0c3ff18373d7683b34df2ef956f0e2205d232cc2",
+    "startBlock": 4151694
+  }
+}
