@@ -48,7 +48,7 @@ export function getSupportedChainIds(): number[] {
  * VeryChain Mainnet only
  */
 export const chainIdToWepinNetwork: Record<number, string> = {
-  74: 'evmvery', // VeryChain mainnet (Chain ID: 74)
+  4613: 'evmvery', // VeryChain mainnet
 }
 
 /**
