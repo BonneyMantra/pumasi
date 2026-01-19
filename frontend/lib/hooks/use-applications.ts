@@ -12,9 +12,18 @@ import {
   ApplicationResult,
   JobResult,
 } from '@/lib/graphql/queries/pumasi-queries';
-import { useWriteContract, useWaitForTransaction, useChainId } from '@/lib/web3';
+import { useWriteContract, useWaitForTransaction, useChainId, usePublicClient, useAccount } from '@/lib/web3';
 import { getContractAddress } from '@/lib/config/contracts';
 import ApplicationRegistryABI from '@/lib/abis/ApplicationRegistry.json';
+import { decodeErrorResult } from 'viem';
+
+// Custom error signatures from ApplicationRegistry contract
+const APPLICATION_ERRORS: Record<string, string> = {
+  'InvalidJob()': 'This job does not exist.',
+  'JobNotOpen()': 'This job is no longer accepting applications.',
+  'CannotApplyToOwnJob()': 'You cannot apply to your own job.',
+  'AlreadyApplied()': 'You have already applied to this job.',
+};
 
 interface UseApplicationsResult {
   applications: Application[];
@@ -352,6 +361,8 @@ export function useSubmitApplication(jobId: string): UseSubmitApplicationResult 
 } {
   const { writeContract, isPending, error: writeError } = useWriteContract();
   const chainId = useChainId();
+  const { publicClient } = usePublicClient();
+  const { address } = useAccount();
   const [isUploading, setIsUploading] = useState(false);
   const [uploadError, setUploadError] = useState<string | null>(null);
   const [txHash, setTxHash] = useState<`0x${string}` | null>(null);
@@ -418,15 +429,70 @@ export function useSubmitApplication(jobId: string): UseSubmitApplicationResult 
         setIsUploading(false);
       }
 
-      // Step 2: Call contract's submitApplication function
-      try {
-        console.log('[SubmitApplication] Calling contract:', {
-          address: applicationRegistryAddress,
-          chainId,
-          jobId,
-          proposalURI: `ipfs://${ipfsHash}`,
-        });
+      // Step 2: Simulate transaction to catch revert reasons before sending
+      const contractCallParams = {
+        address: applicationRegistryAddress as `0x${string}`,
+        abi: ApplicationRegistryABI,
+        functionName: 'submitApplication' as const,
+        args: [BigInt(jobId), `ipfs://${ipfsHash}`] as const,
+        account: address as `0x${string}`,
+      };
 
+      console.log('[SubmitApplication] Simulating transaction:', {
+        address: applicationRegistryAddress,
+        chainId,
+        jobId,
+        proposalURI: `ipfs://${ipfsHash}`,
+        account: address,
+      });
+
+      // Simulate first to get detailed revert reason
+      if (publicClient) {
+        try {
+          await publicClient.simulateContract(contractCallParams);
+          console.log('[SubmitApplication] Simulation passed');
+        } catch (simError) {
+          console.error('[SubmitApplication] Simulation failed:', simError);
+
+          // Try to extract the revert reason
+          const errorStr = simError instanceof Error ? simError.message : String(simError);
+
+          // Check for known custom errors
+          for (const [errorSig, userMessage] of Object.entries(APPLICATION_ERRORS)) {
+            const errorName = errorSig.replace('()', '');
+            if (errorStr.includes(errorName)) {
+              setUploadError(userMessage);
+              return;
+            }
+          }
+
+          // Try to decode the error data if present
+          const hexMatch = errorStr.match(/0x[a-fA-F0-9]+/);
+          if (hexMatch) {
+            try {
+              const decoded = decodeErrorResult({
+                abi: ApplicationRegistryABI,
+                data: hexMatch[0] as `0x${string}`,
+              });
+              const knownError = APPLICATION_ERRORS[`${decoded.errorName}()`];
+              if (knownError) {
+                setUploadError(knownError);
+                return;
+              }
+              setUploadError(`Contract error: ${decoded.errorName}`);
+              return;
+            } catch {
+              // Couldn't decode, use raw message
+            }
+          }
+
+          setUploadError(`Transaction will fail: ${errorStr.slice(0, 200)}`);
+          return;
+        }
+      }
+
+      // Step 3: Call contract's submitApplication function
+      try {
         const hash = await writeContract({
           address: applicationRegistryAddress,
           abi: ApplicationRegistryABI,
@@ -448,7 +514,7 @@ export function useSubmitApplication(jobId: string): UseSubmitApplicationResult 
         return;
       }
     },
-    [jobId, writeContract, applicationRegistryAddress, chainId]
+    [jobId, writeContract, applicationRegistryAddress, chainId, publicClient, address]
   );
 
   const isSubmitting = isUploading || isPending || isConfirming;

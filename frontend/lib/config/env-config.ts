@@ -107,6 +107,7 @@ export const REQUIRED_CLIENT_ENV_VARS = [
 
 export const OPTIONAL_CLIENT_ENV_VARS = [
   'NEXT_PUBLIC_ALCHEMY_API_KEY',
+  'NEXT_PUBLIC_PINATA_GATEWAY', // e.g., your-gateway.mypinata.cloud (faster IPFS fetching)
   'NEXT_PUBLIC_APP_NAME',
   'NEXT_PUBLIC_APP_URL',
   'NEXT_PUBLIC_APP_DESCRIPTION',
@@ -141,6 +142,7 @@ export const OPTIONAL_SERVER_ENV_VARS = [
   'DISABLE_AI_SUMMARIES',
   'TENDERLY_ACCESS_TOKEN',
   'PINATA_JWT',
+  'PINATA_GATEWAY_KEY', // Gateway key for server-side IPFS fetches (keep secret!)
   'DATABASE_URL',
   'MONGODB_URI',
   'NEXTAUTH_SECRET',
